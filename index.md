@@ -1,8 +1,6 @@
 ## About Me
 
-What's up? hey\|you
-
-I am an awesome student at Lehigh, you should hire me!
+Hi this is akanksha
 
 <!-- Upload your own photo and change the path -->
 
@@ -16,7 +14,7 @@ I am an awesome student at Lehigh, you should hire me!
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Natural language processing 10-Ks to identify risks](midterm_summary)**_
+_**[Sentiment Analysis on 10Ks](midterm_summary)**_
 
 You can show off your midterm analysis by moving the report components and output into this file. Or...
 
@@ -46,10 +44,7 @@ _**[Some personal project](/pdf/sample_presentation.pdf)**_
 
 ## Career Objectives
 
-Write what you want. 
-
-Sell yourself!
-
+Trual 123
 ---
 
 ## Hobbies
