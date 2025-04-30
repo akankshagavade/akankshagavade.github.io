@@ -1,11 +1,11 @@
 ## About Me
 
-Hi this is akanksha
+Hello! I’m Akanksha, a junior in Lehigh’s Integrated Business & Engineering Honors program, where I’m pursuing dual degrees in Industrial & Systems Engineering and Finance. I’m passionate about the intersection of human behavior, computer interfaces, and algorithmic decision‐making, exploring how people and machines can collaborate more effectively. WIf you don't find me at my research labs, I will be in the kitchen baking something sweet (or, on the weekends, hiking a nearby trail).
 
 <!-- Upload your own photo and change the path -->
 
 <p style="text-align:center;">
-  <img class="img-circle" src="https://github.com/donbowen/donbowen.github.io/raw/master/images/logo.png" width="50%">
+  <img class="img-circle" src="https://github.com/akankshagavade/akankshagavade.github.io/raw/master/images/the_pic.png" width="50%">
 </p>
 
 ---
@@ -16,7 +16,9 @@ Hi this is akanksha
 
 _**[Sentiment Analysis on 10Ks](midterm_summary)**_
 
-You can show off your midterm analysis by moving the report components and output into this file. Or...
+This project aims to determine whether the sentiment in 10-K filings contains value-relevant information for stock returns. Specifically, it investigates whether a document’s positive or negative tone correlates with better or worse stock performance. 
+
+<a href="/images/report.md?raw=true">Resume</a>   
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
@@ -44,12 +46,13 @@ _**[Some personal project](/pdf/sample_presentation.pdf)**_
 
 ## Career Objectives
 
-Trual 123
----
+I'm interested in the intersection of human behavior, decision processes, and data-driven systems. How can we design algorithms and tools that are not only technically sound, but actually work for the people who use them?
 
-## Hobbies
+My long-term goal is to pursue a Ph.D. focused on healthcare systems engineering and human-centered design. I want to use my background in systems thinking and quantitative modeling to build smarter, more ethical, and more inclusive tools for decision-making in complex environments, especially in high-impact domains like healthcare. I believe understanding how humans interact with algorithms is critical to creating systems that enhance, rather than override, human judgment.
 
-Maybe include a little about these, especially if they are the kinds of things that work well in interviews.
+I’m always looking for ways to bring curiosity, empathy, and creativity into the systems we build.
+
+
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
