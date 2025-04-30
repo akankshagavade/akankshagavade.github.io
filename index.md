@@ -16,7 +16,7 @@ Hello! I’m Akanksha, a junior in Lehigh’s Integrated Business & Engineering 
 
 _**[Sentiment Analysis on 10Ks](midterm_summary)**_
 
-You can show off your midterm analysis by moving the report components and output into this file. Or...
+This project aims to determine whether the sentiment in 10-K filings contains value-relevant information for stock returns. Specifically, it investigates whether a document’s positive or negative tone correlates with better or worse stock performance. 
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
