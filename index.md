@@ -18,23 +18,23 @@ _**[Sentiment Analysis on 10Ks](images/report.md)**_
 
 This project aims to determine whether the sentiment in 10-K filings contains value-relevant information for stock returns. Specifically, it investigates whether a document’s positive or negative tone correlates with better or worse stock performance. 
 
-<a href="/images/report.md?raw=true">Resume</a>   
+<img src="images/rep_ss.png?raw=true"/>
+---
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+_**[Human Centered Computing - Empirical Studies in HCI](COMPASS2023)**_
+
+This study explores how low-income school teachers coped with increased isolation and stress during the shift to hybrid education post-COVID. (COMPASS '23)
+
+<img src="images/sup_ss.png?raw=true"/>
 
 ---
 
-_**[Regression Practice](Regression_practice)**_
+_**[GSIF Paper](images/GSIFpaper.pdf)**_
 
-Or: The process that created this page can be used to show off your whole midterm analysis file, as is.
+Human-centered design is essential when developing technologies aimed at improving people’s lives. This paper details the use of teacher feedback from focus group discussions to enhance our approach to addressing environmental problems and building a better educational-gaming application.  My coauthors are teammates from the Save Tuba project, completed under the supervision of Dr. Khanjan Mehta, for the Global Social Impact Fellowship 2023. 
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
----
-
-_**[Eventual team project](https://donbowen.github.io/teamproject/)**_
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/app_ss.png?raw=true"/>
 
 ---
 
