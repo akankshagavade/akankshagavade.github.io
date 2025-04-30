@@ -18,6 +18,8 @@ _**[Sentiment Analysis on 10Ks](midterm_summary)**_
 
 This project aims to determine whether the sentiment in 10-K filings contains value-relevant information for stock returns. Specifically, it investigates whether a document’s positive or negative tone correlates with better or worse stock performance. 
 
+<a href="/images/report.md?raw=true">Resume</a>   
+
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
