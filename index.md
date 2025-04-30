@@ -21,7 +21,7 @@ This project aims to determine whether the sentiment in 10-K filings contains va
 <img src="images/rep_ss.png?raw=true"/>
 ---
 
-_**[Human Centered Computing - Empirical Studies in HCI](COMPASS2023)**_
+_**[Human Centered Computing - Empirical Studies in HCI](COMPASS2023.pdf)**_
 
 This study explores how low-income school teachers coped with increased isolation and stress during the shift to hybrid education post-COVID. (COMPASS '23)
 
