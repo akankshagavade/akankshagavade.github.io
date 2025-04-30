@@ -38,13 +38,7 @@ Human-centered design is essential when developing technologies aimed at improvi
 
 ---
 
-_**[Some personal project](/pdf/sample_presentation.pdf)**_
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-## Career Objectives
+## Career Goals
 
 I'm interested in the intersection of human behavior, decision processes, and data-driven systems. How can we design algorithms and tools that are not only technically sound, but actually work for the people who use them?
 
