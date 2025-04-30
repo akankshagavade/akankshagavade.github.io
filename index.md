@@ -14,7 +14,7 @@ Hello! I’m Akanksha, a junior in Lehigh’s Integrated Business & Engineering 
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
-_**[Sentiment Analysis on 10Ks](midterm_summary)**_
+_**[Sentiment Analysis on 10Ks](images/report.md)**_
 
 This project aims to determine whether the sentiment in 10-K filings contains value-relevant information for stock returns. Specifically, it investigates whether a document’s positive or negative tone correlates with better or worse stock performance. 
 
