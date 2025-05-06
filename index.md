@@ -1,6 +1,6 @@
 ## About Me
 
-Hello! I’m Akanksha, a junior in Lehigh’s Integrated Business & Engineering Honors program, where I’m pursuing dual degrees in Industrial & Systems Engineering and Finance. I’m passionate about the intersection of human behavior, computer interfaces, and algorithmic decision‐making, exploring how people and machines can collaborate more effectively. WIf you don't find me at my research labs, I will be in the kitchen baking something sweet (or, on the weekends, hiking a nearby trail).
+Hello! I’m Akanksha, a junior in Lehigh’s Integrated Business & Engineering Honors program, where I’m pursuing dual degrees in Industrial & Systems Engineering and Finance. I’m passionate about the intersection of human behavior, computer interfaces, and algorithmic decision‐making, exploring how people and machines can collaborate more effectively. If you don't find me at my research labs, I will be in the kitchen baking something sweet (or, on the weekends, hiking a nearby trail).
 
 <!-- Upload your own photo and change the path -->
 
