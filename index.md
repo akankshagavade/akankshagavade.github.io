@@ -5,7 +5,7 @@ Hello! I’m Akanksha, a junior in Lehigh’s Integrated Business & Engineering 
 <!-- Upload your own photo and change the path -->
 
 <p style="text-align:center;">
-  <img class="img-circle" src="https://github.com/akankshagavade/akankshagavade.github.io/raw/master/images/the_pic.png" width="50%">
+  <img class="img-circle" src="https://github.com/akankshagavade/akankshagavade.github.io/raw/master/images/gsif.png" width="50%">
 </p>
 
 ---
@@ -21,11 +21,15 @@ This project aims to determine whether the sentiment in 10-K filings contains va
 <img src="images/rep_ss.png?raw=true"/>
 ---
 
-_**[Human Centered Computing - Empirical Studies in HCI](COMPASS2023.pdf)**_
+_**[Human Centered Computing - Empirical Studies in HCI](images/COMPASS2023.pdf)**_
 
 This study explores how low-income school teachers coped with increased isolation and stress during the shift to hybrid education post-COVID. (COMPASS '23)
 
 <img src="images/sup_ss.png?raw=true"/>
+
+Here's a video recording of my presentation!
+
+https://drive.google.com/file/d/1fo6dtNweKz-4T8g2KqJx-djAAHrB_ciz/view?usp=sharing 
 
 ---
 
@@ -43,8 +47,6 @@ Human-centered design is essential when developing technologies aimed at improvi
 I'm interested in the intersection of human behavior, decision processes, and data-driven systems. How can we design algorithms and tools that are not only technically sound, but actually work for the people who use them?
 
 My long-term goal is to pursue a Ph.D. focused on healthcare systems engineering and human-centered design. I want to use my background in systems thinking and quantitative modeling to build smarter, more ethical, and more inclusive tools for decision-making in complex environments, especially in high-impact domains like healthcare. I believe understanding how humans interact with algorithms is critical to creating systems that enhance, rather than override, human judgment.
-
-I’m always looking for ways to bring curiosity, empathy, and creativity into the systems we build.
 
 
 
