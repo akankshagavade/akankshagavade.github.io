@@ -27,9 +27,9 @@ This study explores how low-income school teachers coped with increased isolatio
 
 <img src="images/sup_ss.png?raw=true"/>
 
-Here's a video recording of my presentation!
+<a href="https://drive.google.com/file/d/1fo6dtNweKz-4T8g2KqJx-djAAHrB_ciz/view?usp=sharing ">Here's</a> a video recording of my presentation!
 
-https://drive.google.com/file/d/1fo6dtNweKz-4T8g2KqJx-djAAHrB_ciz/view?usp=sharing 
+
 
 ---
 
