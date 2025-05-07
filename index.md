@@ -48,7 +48,7 @@ Human-centered design is essential when developing technologies aimed at improvi
 
 I'm interested in the intersection of human behavior, decision processes, and data-driven systems. How can we design algorithms and tools that are not only technically sound, but actually work for the people who use them?
 
-My long-term goal is to pursue a Ph.D. focused on healthcare systems engineering and human-centered design. I want to use my background in systems thinking and quantitative modeling to build smarter, more ethical, and more inclusive tools for decision-making in complex environments, especially in high-impact domains like healthcare. I believe understanding how humans interact with algorithms is critical to creating systems that enhance, rather than override, human judgment.
+After my undergraduate education, my goal is to pursue a Ph.D. focused on human-centered design. I want to use my background in systems thinking and quantitative modeling to build smarter, more ethical, and more inclusive tools for decision-making in complex environments, especially in high-impact domains like healthcare. I believe understanding how humans interact with algorithms is critical to creating systems that enhance, rather than override, human judgment.
 
 
 
