@@ -31,7 +31,7 @@ This study explores how low-income school teachers coped with increased isolatio
 
 _**[How Teacher Feedback Helped Reimagine, Redesign, and Recode a Sustainability Education App](images/GSIFpaper.pdf)**_
 
-Human-centered design is essential when developing technologies aimed at improving people’s lives. This paper details the use of teacher feedback from focus group discussions to enhance our approach to addressing environmental problems and building a better educational-gaming application.  My coauthors are teammates from the Save Tuba project, completed under the supervision of Dr. Khanjan Mehta, for the Global Social Impact Fellowship 2023. 
+Human-centered design is essential when developing technologies aimed at improving people’s lives. This paper details the use of teacher feedback from focus group discussions to enhance our approach to addressing environmental problems and building a better educational-gaming application.  My coauthors are teammates from the Save Tuba project, who have continued building on the work from previous teammates. This paper was completed under the supervision of Dr. Khanjan Mehta, for the Global Social Impact Fellowship 2023. 
 
 
 <img src="images/app_ss.png?raw=true"/>
@@ -45,7 +45,12 @@ Under review at CSCW
 Instead of always chasing the creation of new tools, we should also focus on rethinking and reshaping the technologies people already use. The helpful contribution would be study and learn how people are using technology as it exists today and not necessarily inventing something new. It is important to consider aspects of human psychology and ogranization behaviour as a whole, towards computers and technology, because sometimes, the answers lie in the social and emotional contexts of using tech, not the bits and bolts of the system. This was a really inspiring project for me, because it encourages me to apply knowledge from the social sciences towards building more human-centred technologies. 
 
 
-<img src="images/app_ss.png?raw=true"/>
+### Projects and Models
+
+_**[Replicating "Lazy Prices"](images/report.md)**_
+
+vfvvf
+
 
 _**[Sentiment Analysis on 10Ks](images/report.md)**_
 
