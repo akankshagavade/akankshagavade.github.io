@@ -1,4 +1,4 @@
-## About Me
+About Me
 
 Hello! I’m Akanksha, a senior in Lehigh’s Integrated Business & Engineering Honors program, where I’m pursuing dual degrees in Industrial & Systems Engineering and IBE Financial Engineering. I'm an international student from Mumbai, India. I’m passionate about the intersection of human behavior, computer interfaces, and algorithmic decision‐making, exploring how people and machines can collaborate more effectively. 
 
@@ -31,7 +31,7 @@ This study explores how low-income school teachers coped with increased isolatio
 
 _**[How Teacher Feedback Helped Reimagine, Redesign, and Recode a Sustainability Education App](images/GSIFpaper.pdf)**_
 
-Human-centered design is essential when developing technologies aimed at improving people’s lives. This paper details the use of teacher feedback from focus group discussions to enhance our approach to addressing environmental problems and building a better educational-gaming application.  My coauthors are teammates from the Save Tuba project, completed under the supervision of Dr. Khanjan Mehta, for the Global Social Impact Fellowship 2023. 
+Human-centered design is essential when developing technologies aimed at improving people’s lives. This paper details the use of teacher feedback from focus group discussions to enhance our approach to addressing environmental problems and building a better educational-gaming application.  My coauthors are teammates from the Save Tuba project, who have continued building on the work from previous teammates. This paper was completed under the supervision of Dr. Khanjan Mehta, for the Global Social Impact Fellowship 2023. 
 
 
 <img src="images/app_ss.png?raw=true"/>
@@ -45,7 +45,17 @@ Under review at CSCW
 Instead of always chasing the creation of new tools, we should also focus on rethinking and reshaping the technologies people already use. The helpful contribution would be study and learn how people are using technology as it exists today and not necessarily inventing something new. It is important to consider aspects of human psychology and ogranization behaviour as a whole, towards computers and technology, because sometimes, the answers lie in the social and emotional contexts of using tech, not the bits and bolts of the system. This was a really inspiring project for me, because it encourages me to apply knowledge from the social sciences towards building more human-centred technologies. 
 
 
-<img src="images/app_ss.png?raw=true"/>
+### Projects and Models
+
+_**[Replicating "Lazy Prices"](project/README.md)**_
+
+Access Repo here(https://github.com/hannahmgordon/Final-Project-HPST) 
+
+View our project website (https://lazypricesreplication.streamlit.app/)! 
+
+This repo combined large-scale text mining (NLP) + vector similarity (cosine) + financial econometrics (portfolio analysis) to show that stable language in disclosures signals stronger long-term stock performance. This project replicates the “Lazy Prices” idea by analyzing 10-K filings of S&P 500 firms (1993–2024). It measures how much the language in financial reports changes year to year using cosine similarity, and links these textual shifts to future stock returns. 
+
+<img src="project/hpstsc.png?raw=true"/>
 
 _**[Sentiment Analysis on 10Ks](images/report.md)**_
 
