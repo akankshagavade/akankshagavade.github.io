@@ -48,7 +48,7 @@ Instead of always chasing the creation of new tools, we should also focus on ret
 ### Projects and Models
 
 _**[Replicating "Lazy Prices"](project/README.md)**_
-Access Repo here(project/HPST) 
+Access Repo here(https://github.com/hannahmgordon/Final-Project-HPST) 
 View our project website (https://lazypricesreplication.streamlit.app/)! 
 This repo combined large-scale text mining (NLP) + vector similarity (cosine) + financial econometrics (portfolio analysis) to show that stable language in disclosures signals stronger long-term stock performance. This project replicates the “Lazy Prices” idea by analyzing 10-K filings of S&P 500 firms (1993–2024). It measures how much the language in financial reports changes year to year using cosine similarity, and links these textual shifts to future stock returns. 
 
