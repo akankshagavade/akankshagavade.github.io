@@ -1,4 +1,4 @@
-e## About Me
+About Me
 
 Hello! I’m Akanksha, a senior in Lehigh’s Integrated Business & Engineering Honors program, where I’m pursuing dual degrees in Industrial & Systems Engineering and IBE Financial Engineering. I'm an international student from Mumbai, India. I’m passionate about the intersection of human behavior, computer interfaces, and algorithmic decision‐making, exploring how people and machines can collaborate more effectively. 
 
@@ -55,7 +55,7 @@ View our project website (https://lazypricesreplication.streamlit.app/)!
 
 This repo combined large-scale text mining (NLP) + vector similarity (cosine) + financial econometrics (portfolio analysis) to show that stable language in disclosures signals stronger long-term stock performance. This project replicates the “Lazy Prices” idea by analyzing 10-K filings of S&P 500 firms (1993–2024). It measures how much the language in financial reports changes year to year using cosine similarity, and links these textual shifts to future stock returns. 
 
-<img src="images/hpstsc.png?raw=true"/>
+<img src="project/hpstsc.png?raw=true"/>
 
 _**[Sentiment Analysis on 10Ks](images/report.md)**_
 
