@@ -22,7 +22,7 @@ xx: Third author to a paper under review at CSCW '26
 </p>
 
 ---
-[View My Projects](projects)
+[View My Projects](projects.md)
 
 ## Portfolio 
 ### Papers 
