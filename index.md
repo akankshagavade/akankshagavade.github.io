@@ -1,8 +1,19 @@
-About Me
+## About Me
 
-Hello! I’m Akanksha, a senior in Lehigh’s Integrated Business & Engineering Honors program, where I’m pursuing dual degrees in Industrial & Systems Engineering and IBE Financial Engineering. I'm an international student from Mumbai, India. I’m passionate about the intersection of human behavior, computer interfaces, and algorithmic decision‐making, exploring how people and machines can collaborate more effectively. 
+Hello! I’m Akanksha, a senior in Lehigh’s Integrated Business & Engineering Honors program, where I’m pursuing dual degrees in Industrial & Systems Engineering and IBE Financial Engineering. I'm an international student from Mumbai, India. 
 
-This upcoming summer, I will be in Germany as I have received the Ruhr Fellowship to conduct academic research in the field of Business & Entrepreneurship at the Technical University of Dortmund (TUD).
+Research Interests:
+- Human Computer Interaction
+- Human Behavior
+- Decision making
+- Applications of technology and OB in high-impact domains like healthcare and education
+
+Updates!
+
+xx: Third author to a paper under review at TOCHI '26
+xx: Third author to a paper under review at CSCW '26
+02/08/2025: Back from Germany! 
+29/04/2025: This upcoming summer, I will be in Germany as I have received the Ruhr Fellowship to conduct academic research in the field of Business & Entrepreneurship at the Technical University of Dortmund (TUD).
 
 <!-- Upload your own photo and change the path -->
 
@@ -13,8 +24,9 @@ This upcoming summer, I will be in Germany as I have received the Ruhr Fellowshi
 ---
 [View My Projects](projects)
 
-## Portfolio
-### Papers
+## Portfolio 
+### Papers 
+Link for more details.
 
 <!-- You can link to other websites, PDFs in this repo, and other pages in this repo -->
 
