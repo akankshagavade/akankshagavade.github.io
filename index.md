@@ -11,6 +11,7 @@ This upcoming summer, I will be in Germany as I have received the Ruhr Fellowshi
 </p>
 
 ---
+[View My Projects](projects)
 
 ## Portfolio
 ### Papers
