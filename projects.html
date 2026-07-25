@@ -40,16 +40,7 @@
   </section>
 
   <section>
-    <div class="card-grid">
-      <div class="card">
-        <h3><a href="#lazy-prices">Replicating "Lazy Prices"</a></h3>
-        <p>NLP + cosine similarity + portfolio analysis on three decades of S&amp;P 500 10-K filings.</p>
-      </div>
-      <div class="card">
-        <h3><a href="#sentiment-10k">Sentiment Analysis on 10-Ks</a></h3>
-        <p>Does the tone of a filing carry value-relevant information for future stock returns?</p>
-      </div>
-      <div class="card">
+  
         <h3><a href="#mable">MABLE Indoor Navigation App</a></h3>
         <p>Accessibility-focused smart-glasses concept for blind and low-vision indoor navigation.</p>
       </div>
@@ -61,30 +52,53 @@
         <h3><a href="#semantic-search">Semantic Search Tool</a></h3>
         <p>A search tool for a 3,800+ file legal case archive, shipped and integrated with Dropbox.</p>
       </div>
+
+      <div class="card-grid">
+      <div class="card">
+        <h3><a href="#lazy-prices">Replicating "Lazy Prices"</a></h3>
+        <p>NLP + cosine similarity + portfolio analysis on three decades of S&amp;P 500 10-K filings.</p>
+      </div>
+      <div class="card">
+        <h3><a href="#sentiment-10k">Sentiment Analysis on 10-Ks</a></h3>
+        <p>Does the tone of a filing carry value-relevant information for future stock returns?</p>
+      </div>
+      <div class="card">
     </div>
   </section>
 
   <section>
 
-    <article class="entry" id="lazy-prices">
-      <h3>Replicating "Lazy Prices"</h3>
-      <p class="venue">Independent computational project · Jan–May 2025</p>
-      <p class="abstract-label">What it does</p>
-      <p>This project replicates and extends a landmark Harvard "Lazy Prices"
-      study using large-scale computational text analysis of three decades
-      (1993–2024) of 10-K filings across S&amp;P 500 firms. It combines
-      text mining, vector similarity (cosine similarity), and financial
-      econometrics to show that firms with more stable disclosure language
-      sustained stronger long-term stock performance. I built the end-to-end
-      Python pipeline spanning text processing, similarity scoring, and
-      portfolio construction.</p>
-      <div class="entry-links">
-        <a href="https://github.com/hannahmgordon/Final-Project-HPST">View the repo →</a>
-        <a href="https://lazypricesreplication.streamlit.app/">Open the live app →</a>
-      </div>
-      <div class="editnote">Editable: add a chart of your results, or a paragraph on what surprised you in the findings.</div>
-    </article>
+ <article class="entry" id="lazy-prices">
+  <h3>Replicating "Lazy Prices"</h3>
+  <p class="venue">Independent computational project · Jan–May 2025</p>
 
+  <p class="abstract-label">What</p>
+  <p>This project replicates and extends a landmark Harvard "Lazy Prices"
+  study, testing whether the language companies use in financial
+  disclosures says something about their future stock performance.</p>
+
+  <p class="abstract-label">Methods</p>
+  <ul>
+    <li>Analyzed three decades (1993–2024) of 10-K filings across S&amp;P 500 firms</li>
+    <li>Used cosine similarity to measure how much a company's disclosure language changes year to year</li>
+    <li>Combined text mining (NLP), vector similarity, and financial econometrics to link those textual shifts to future stock returns</li>
+    <li>Built the end-to-end Python pipeline: text processing, similarity scoring, and portfolio construction</li>
+  </ul>
+
+  <p class="abstract-label">Findings</p>
+  <p>Firms with more stable disclosure language sustained stronger
+  long-term stock performance.</p>
+
+  <div class="entry-links">
+    <a href="https://github.com/hannahmgordon/Final-Project-HPST">View the repo →</a>
+    <a href="https://lazypricesreplication.streamlit.app/">Open the live app →</a>
+  </div>
+  <div class="editnote">Editable: add a chart of your results, or a paragraph on what surprised you in the findings.</div>
+</article>
+
+
+
+    
     <article class="entry" id="sentiment-10k">
       <h3>Sentiment Analysis on 10-Ks</h3>
       <p class="venue">Independent computational project</p>
