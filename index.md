@@ -1,3 +1,172 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akanksha Gavade — HCI &amp; UX Research</title>
+<meta name="description" content="Akanksha Gavade — HCI and UX researcher working on human behavior, decision-making, and data-driven systems in healthcare and education.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap masthead-top">
+    <span>Human-Centered Computing Notebook</span>
+    <span data-issue-date>Updated July 2026</span>
+  </div>
+  <div class="masthead-title">
+    <h1>Akanksha Gavade</h1>
+    <p>HCI &amp; UX Research &middot; Decision Science &middot; Human-Centered Systems</p>
+  </div>
+  <nav class="primary">
+    <ul>
+      <li><a href="index.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <!-- ================= HERO / ABOUT ================= -->
+  <section class="hero reveal">
+    <div>
+      <p class="eyebrow">Abstract</p>
+      <h2>Building tools that reason with people — not around them.</h2>
+      <!-- EDIT: rewrite/expand this bio paragraph any time. Keep it in first person. -->
+      <p>
+        I'm a senior in Lehigh University's Integrated Business &amp; Engineering Honors
+        program, pursuing dual degrees in Industrial &amp; Systems Engineering and
+        Financial Engineering. I'm an international student from Mumbai, India, and an
+        HCI/UX researcher with four years of experience translating qualitative and
+        computational research into product decisions. This fall, I'll begin an
+        M.S./Ph.D. in Informatics at UC Irvine.
+      </p>
+      <p>
+        My research sits at the intersection of human behavior, decision-making, and
+        the systems we build to support both — with a particular focus on
+        high-impact domains like healthcare and education.
+      </p>
+      <p><a class="more" href="AkankshaGavade_Resume.pdf">↓ Download résumé (PDF)</a> &nbsp;·&nbsp;
+      <!-- EDIT: point this at your actual résumé file once you upload it to the repo -->
+      <a class="more" href="https://linkedin.com/in/akanksha-gavade">LinkedIn ↗</a></p>
+    </div>
+    <div class="hero-photo">
+      <!-- EDIT: swap src for your own photo, keep the file in an /images folder -->
+      <img src="https://github.com/akankshagavade/akankshagavade.github.io/raw/master/images/gsif.png" alt="Akanksha Gavade">
+    </div>
+  </section>
+
+  <!-- ================= STATS ================= -->
+  <section class="stat-grid reveal">
+    <div class="stat"><b>4+</b><span>Years in HCI/UX Research</span></div>
+    <div class="stat"><b>100+</b><span>Participants Interviewed</span></div>
+    <div class="stat"><b>3,800+</b><span>Case Files Studied (DAS Lab)</span></div>
+    <div class="stat"><b>3</b><span>Papers Published / Under Review</span></div>
+  </section>
+
+  <!-- ================= TABLE OF CONTENTS ================= -->
+  <section class="reveal">
+    <p class="eyebrow">Table of Contents</p>
+    <h2 class="section-title">Where to go from here</h2>
+    <hr class="section-rule">
+    <div class="card-grid">
+      <div class="card">
+        <p class="num">01 — Research</p>
+        <h3>Papers &amp; Publications</h3>
+        <p>Peer-reviewed and in-review work on hybrid education, sustainability
+        games, and design-vs-non-design in HCI.</p>
+        <a class="more" href="research.html">Read the papers →</a>
+      </div>
+      <div class="card">
+        <p class="num">02 — Projects</p>
+        <h3>Projects &amp; Models</h3>
+        <p>Computational text analysis on 10-K filings, an accessibility-focused
+        indoor navigation app, and more.</p>
+        <a class="more" href="projects.html">See the projects →</a>
+      </div>
+      <div class="card">
+        <p class="num">03 — Experience</p>
+        <h3>Research &amp; Leadership</h3>
+        <p>Lab and fellowship roles across Lehigh, Cornell, and TU Dortmund, plus
+        two student-org presidencies.</p>
+        <a class="more" href="experience.html">View the timeline →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="reveal">
+    <p class="eyebrow">Methods &amp; Tools</p>
+    <h2 class="section-title">How I work</h2>
+    <hr class="section-rule">
+    <p class="section-intro"><strong>Methods:</strong></p>
+    <div class="skills-list">
+      <span class="tag">Usability Testing</span>
+      <span class="tag">Semi-Structured Interviews</span>
+      <span class="tag">Focus Groups</span>
+      <span class="tag">Think-Aloud Protocols</span>
+      <span class="tag">Field Studies</span>
+      <span class="tag">Survey Design</span>
+      <span class="tag">Participatory Research</span>
+      <span class="tag">Mixed Methods</span>
+      <span class="tag">Statistical Modeling</span>
+      <span class="tag">Journey Mapping</span>
+    </div>
+    <p class="section-intro" style="margin-top:18px;"><strong>Tools:</strong></p>
+    <div class="skills-list">
+      <span class="tag">Python (Pandas, Scikit-learn, NLP)</span>
+      <span class="tag">R</span>
+      <span class="tag">MaxQDA</span>
+      <span class="tag">Tableau</span>
+      <span class="tag">SQL</span>
+      <span class="tag">Figma</span>
+      <span class="tag">Miro</span>
+      <span class="tag">Qualtrics</span>
+    </div>
+  </section>
+
+  <!-- ================= CAREER GOALS ================= -->
+  <section class="reveal">
+    <p class="eyebrow">Looking Ahead</p>
+    <h2 class="section-title">Career Goals</h2>
+    <hr class="section-rule">
+    <!-- EDIT: expand freely — this is pulled from your original career-goals text -->
+    <blockquote class="pull">
+      <span>“</span>How can we design algorithms and tools that are not only
+      technically sound, but actually work for the people who use them?
+      I want to build smarter, more ethical, more inclusive tools for
+      decision-making in complex environments — especially in healthcare —
+      where understanding how humans interact with algorithms is critical to
+      creating systems that enhance, rather than override, human judgment.
+    </blockquote>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="footer-links">
+      <a href="mailto:akgavade2944@gmail.com">Email</a>
+      <a href="https://linkedin.com/in/akanksha-gavade">LinkedIn</a>
+      <a href="https://github.com/akankshagavade">GitHub</a>
+      <a href="tel:+16109362054">+1 610-936-2054</a>
+      <!-- EDIT: remove the phone link above if you'd rather not list it publicly -->
+    </div>
+    <span class="footer-note">Irvine, CA · Lehigh University → UC Irvine</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
+
 ## About Me
 
 Hello! I’m Akanksha, a senior in Lehigh’s Integrated Business & Engineering Honors program, where I’m pursuing dual degrees in Industrial & Systems Engineering and IBE Financial Engineering. I'm an international student from Mumbai, India. 
