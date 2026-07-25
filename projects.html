@@ -10,20 +10,27 @@
 </head>
 <body>
 
-<header class="site wrap">
-  <div class="header-row">
-    <p class="site-name">Akanksha Gavade</p>
-    <nav class="primary">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="experience.html">Experience</a></li>
-      </ul>
-    </nav>
+<div class="layout">
+<aside class="sidebar">
+  <p class="site-name">Akanksha<br>Gavade</p>
+  <p class="site-tagline">HCI &amp; UX Researcher</p>
+  <nav class="primary">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="experience.html">Experience</a></li>
+    </ul>
+  </nav>
+  <div class="sidebar-contact">
+    <a href="mailto:akgavade2944@gmail.com">Email</a>
+    <a href="https://linkedin.com/in/akanksha-gavade">LinkedIn</a>
+    <a href="https://github.com/akankshagavade">GitHub</a>
+    <a href="AkankshaGavade_Resume.pdf">Résumé (PDF)</a>
   </div>
-</header>
+</aside>
 
+<div class="content">
 <main class="wrap">
 
   <section style="margin-top:36px;">
@@ -93,16 +100,83 @@
     <article class="entry" id="mable">
       <h3>MABLE Indoor Navigation App</h3>
       <p class="venue">Capstone &amp; Independent Study · with Dr. Vinod Namboodiri · Jan 2025 – May 2026</p>
-      <p class="abstract-label">What it does</p>
-      <p>MABLE identifies a market opportunity in healthcare and accessibility
-      through a competitive and landscape analysis of indoor navigation apps and
-      smart-glasses technologies. I mapped user journeys and flows for blind and
-      low-vision users to identify key friction points and accessibility gaps,
-      then authored technical specifications and a business case for
-      accessibility-focused smart glasses — with UI/UX recommendations grounded
-      directly in that journey map. I also designed a user-testing protocol to
-      validate usability and accessibility with target users ahead of
+
+      <p class="case-label">The problem</p>
+      <p>Indoor spaces — hospitals, campus buildings, transit hubs — have
+      almost none of the wayfinding infrastructure that outdoor GPS relies
+      on. For blind and low-vision users, that gap means every unfamiliar
+      building is a navigation problem solved from scratch, usually by
+      asking a stranger.</p>
+
+      <p class="case-label">My process</p>
+      <p>I started with a competitive and landscape analysis of existing
+      indoor navigation apps and smart-glasses technologies to see where
+      the market gap actually was. From there, I mapped the end-to-end
+      journey a blind or low-vision user takes through an unfamiliar
+      building, to pin down exactly where friction happens:</p>
+
+      <div class="journey-map">
+        <svg viewBox="0 0 760 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Journey map: a blind or low-vision user enters a building, tries to find a landmark, asks for help or checks their phone, loses their way, and arrives late and stressed. The 'loses way' step is flagged as the key friction point where GPS signal fails indoors.">
+          <style>
+            .jm-box{ fill:#FFFFFF; stroke:#1F3A5F; stroke-width:1; }
+            .jm-box-flag{ fill:#E5EAF3; stroke:#1F3A5F; stroke-width:1.5; }
+            .jm-title{ font-family: Georgia, serif; font-size:13px; fill:#1F3A5F; font-weight:bold; }
+            .jm-sub{ font-family: Georgia, serif; font-size:11px; fill:#5B6675; }
+            .jm-arrow{ stroke:#1F3A5F; stroke-width:1.5; fill:none; }
+            .jm-flag-text{ font-family: Georgia, serif; font-size:10.5px; fill:#1F3A5F; font-style:italic; }
+          </style>
+
+          <rect class="jm-box" x="10" y="30" width="130" height="64" rx="2"/>
+          <text class="jm-title" x="75" y="58" text-anchor="middle">Enters building</text>
+          <text class="jm-sub" x="75" y="76" text-anchor="middle">Unfamiliar layout</text>
+
+          <rect class="jm-box" x="165" y="30" width="130" height="64" rx="2"/>
+          <text class="jm-title" x="230" y="58" text-anchor="middle">Looks for a</text>
+          <text class="jm-title" x="230" y="74" text-anchor="middle">landmark or sign</text>
+
+          <rect class="jm-box" x="320" y="30" width="130" height="64" rx="2"/>
+          <text class="jm-title" x="385" y="52" text-anchor="middle">Asks someone,</text>
+          <text class="jm-title" x="385" y="68" text-anchor="middle">or checks phone</text>
+          <text class="jm-sub" x="385" y="84" text-anchor="middle">GPS</text>
+
+          <rect class="jm-box-flag" x="475" y="20" width="140" height="80" rx="2"/>
+          <text class="jm-title" x="545" y="46" text-anchor="middle">Loses their way</text>
+          <text class="jm-sub" x="545" y="62" text-anchor="middle">Indoor GPS drops</text>
+          <text class="jm-sub" x="545" y="76" text-anchor="middle">signal, backtracks</text>
+
+          <rect class="jm-box" x="635" y="30" width="115" height="64" rx="2"/>
+          <text class="jm-title" x="692" y="52" text-anchor="middle">Arrives</text>
+          <text class="jm-title" x="692" y="68" text-anchor="middle">late, stressed</text>
+
+          <path class="jm-arrow" d="M140 62 L165 62" marker-end="url(#arrow)"/>
+          <path class="jm-arrow" d="M295 62 L320 62" marker-end="url(#arrow)"/>
+          <path class="jm-arrow" d="M450 62 L475 60" marker-end="url(#arrow)"/>
+          <path class="jm-arrow" d="M615 60 L635 62" marker-end="url(#arrow)"/>
+
+          <defs>
+            <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+              <path d="M0,0 L6,3 L0,6 Z" fill="#1F3A5F"/>
+            </marker>
+          </defs>
+
+          <line x1="545" y1="100" x2="545" y2="118" class="jm-arrow"/>
+          <text class="jm-flag-text" x="545" y="134" text-anchor="middle">↑ key friction point I designed around</text>
+        </svg>
+      </div>
+
+      <p>That map made the real gap obvious: it isn't the entry or exit of
+      a building, it's the middle, where indoor GPS fails and there's no
+      tactile or audio replacement. From there, I authored technical
+      specifications and a business case for accessibility-focused smart
+      glasses, with UI/UX recommendations grounded directly in that
+      friction point, and designed a user-testing protocol to validate
+      usability and accessibility with target users ahead of
       implementation.</p>
+
+      <p class="case-label">The outcome</p>
+      <p>A technical spec and business case for an indoor-navigation smart
+      glasses product, plus a validated testing protocol ready to run with
+      blind and low-vision users as the project moves into implementation.</p>
       <div class="entry-links">
         <a href="#">View journey map →</a>
         <!-- EDIT: link to your journey map / spec doc once ready -->
@@ -134,14 +208,12 @@
 
 <footer id="contact">
   <div class="wrap">
-    <span>
-      <a href="mailto:akgavade2944@gmail.com">Email</a> ·
-      <a href="https://linkedin.com/in/akanksha-gavade">LinkedIn</a> ·
-      <a href="https://github.com/akankshagavade">GitHub</a>
-    </span>
     <span>Irvine, CA · Lehigh University → UC Irvine</span>
   </div>
 </footer>
+
+</div>
+</div>
 
 <script src="js/main.js"></script>
 </body>
