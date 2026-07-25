@@ -103,12 +103,9 @@ nav.primary a.active{
 
 /* ---------- Hero ---------- */
 .hero{
-  display:grid;
-  grid-template-columns: 1.4fr 1fr;
-  gap: 40px;
-  align-items:start;
   padding-top: 44px;
 }
+.hero::after{ content:""; display:block; clear:both; }
 .hero h1{
   font-family: var(--font-display);
   font-weight: 600;
@@ -116,11 +113,14 @@ nav.primary a.active{
   font-size: clamp(1.8rem, 3.6vw, 2.4rem);
   margin: 0 0 22px;
 }
-.hero-photo img{
-  width:100%;
-  aspect-ratio: 4/3;
+.float-photo{
+  float: right;
+  width: 280px;
+  max-width: 45%;
+  aspect-ratio: 3/4;
   object-fit: cover;
   border: 1px solid var(--line);
+  margin: 4px 0 20px 30px;
 }
 
 /* ---------- Sections ---------- */
@@ -176,7 +176,37 @@ h2.section-title{
 }
 .stat span{ color: var(--muted); font-size: .92rem; }
 
-/* ---------- Plain link list (table-of-contents / index) ---------- */
+/* ---------- Card grid (TOC / index) ---------- */
+.card-grid{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.card{
+  background: #FFFFFF;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--navy);
+  padding: 22px 22px 20px;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.card:hover{
+  transform: translateY(-3px);
+  box-shadow: 4px 6px 0 var(--callout);
+}
+.card h3{
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  margin: 0 0 8px;
+  color: var(--navy);
+}
+.card h3 a{ text-decoration:none; }
+.card h3 a:hover{ text-decoration: underline; }
+.card p{ margin:0; color: var(--muted); font-size: .96rem; }
+@media (max-width: 620px){
+  .card-grid{ grid-template-columns: 1fr; }
+}
+
+/* ---------- Plain link list (still used where noted) ---------- */
 ul.link-list{ list-style:none; margin:0; padding:0; }
 ul.link-list li{
   padding: 18px 0;
@@ -294,8 +324,8 @@ footer a{ color: var(--navy); }
   nav.primary a.active{ border-left:none; margin-left:0; padding-left:0; border-bottom: 2px solid var(--navy); }
   .content{ border-left:none; border-top: 1px solid var(--line); }
   .content .wrap{ padding: 0 28px; }
-  .hero{ grid-template-columns: 1fr; }
-  .hero-photo{ order: -1; max-width: 260px; }
+  .hero h1{ clear: both; }
+  .float-photo{ float:none; width:100%; max-width: 280px; margin: 0 0 20px; }
   .stat-row{ flex-direction: column; }
   .stat{ border-left:none; border-top: 1px solid var(--line); padding: 14px 0; }
   .stat:first-child{ border-top:none; }
