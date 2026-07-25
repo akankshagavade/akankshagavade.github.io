@@ -13,55 +13,80 @@ Website going through a major renovation. Please check back in a day or two!
 </head>
 <body>
 
-<header class="masthead">
-  <div class="wrap masthead-top">
-    <span>Human-Centered Computing Notebook</span>
-    <span data-issue-date>Updated July 2026</span>
+<div class="topstrip wrap">
+  <span>Human-Centered Computing Notebook</span>
+  <span data-issue-date>Updated July 2026</span>
+</div>
+
+<header class="id-header wrap">
+  <div class="id-block">
+    <!-- EDIT: swap src for your own photo, keep the file in an /images folder -->
+    <img class="avatar" src="https://github.com/akankshagavade/akankshagavade.github.io/raw/master/images/gsif.png" alt="Akanksha Gavade">
+    <div class="id-text">
+      <h1>Akanksha Gavade</h1>
+      <p class="tagline">HCI &amp; UX Researcher &middot; Decision Science &middot; Human-Centered Systems. Incoming M.S./Ph.D. student in Informatics at UC Irvine.</p>
+      <nav class="pillnav">
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="AkankshaGavade_Resume.pdf">Résumé</a>
+      </nav>
+    </div>
   </div>
-  <div class="masthead-title">
-    <h1>Akanksha Gavade</h1>
-    <p>HCI &amp; UX Research &middot; Decision Science &middot; Human-Centered Systems</p>
-  </div>
-  <nav class="primary">
-    <ul>
-      <li><a href="index.html">About</a></li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="experience.html">Experience</a></li>
-      <li><a href="index.html#contact">Contact</a></li>
-    </ul>
-  </nav>
 </header>
 
 <main class="wrap">
 
   <!-- ================= HERO / ABOUT ================= -->
   <section class="hero reveal">
-    <div>
-      <p class="eyebrow">Abstract</p>
-      <h2>Building tools that reason with people — not around them.</h2>
-      <!-- EDIT: rewrite/expand this bio paragraph any time. Keep it in first person. -->
-      <p>
-        I'm a senior in Lehigh University's Integrated Business &amp; Engineering Honors
-        program, pursuing dual degrees in Industrial &amp; Systems Engineering and
-        Financial Engineering. I'm an international student from Mumbai, India, and an
-        HCI/UX researcher with four years of experience translating qualitative and
-        computational research into product decisions. This fall, I'll begin an
-        M.S./Ph.D. in Informatics at UC Irvine.
-      </p>
-      <p>
-        My research sits at the intersection of human behavior, decision-making, and
-        the systems we build to support both — with a particular focus on
-        high-impact domains like healthcare and education.
-      </p>
-      <p><a class="more" href="AkankshaGavade_Resume.pdf">↓ Download résumé (PDF)</a> &nbsp;·&nbsp;
-      <!-- EDIT: point this at your actual résumé file once you upload it to the repo -->
-      <a class="more" href="https://linkedin.com/in/akanksha-gavade">LinkedIn ↗</a></p>
-    </div>
-    <div class="hero-photo">
-      <!-- EDIT: swap src for your own photo, keep the file in an /images folder -->
-      <img src="https://github.com/akankshagavade/akankshagavade.github.io/raw/master/images/gsif.png" alt="Akanksha Gavade">
-    </div>
+    <p class="eyebrow">Abstract</p>
+    <h2 class="section-title" style="font-style:italic; font-weight:500; font-size:1.4rem;">Building tools that reason with people — not around them.</h2>
+    <!-- EDIT: rewrite/expand this bio paragraph any time. Keep it in first person. -->
+    <p>
+      I'm a senior in Lehigh University's Integrated Business &amp; Engineering Honors
+      program, pursuing dual degrees in Industrial &amp; Systems Engineering and
+      Financial Engineering. I'm an international student from Mumbai, India, and an
+      HCI/UX researcher with four years of experience translating qualitative and
+      computational research into product decisions. This fall, I'll begin an
+      M.S./Ph.D. in Informatics at UC Irvine.
+    </p>
+    <p>
+      My research sits at the intersection of human behavior, decision-making, and
+      the systems we build to support both — with a particular focus on
+      high-impact domains like healthcare and education. Outside of research, I'm
+      always happy to meet new collaborators and new ideas.
+      <!-- EDIT: swap in a personal-interests line here if you'd like, e.g. hobbies/travel -->
+    </p>
+    <p><a class="more" href="AkankshaGavade_Resume.pdf">↓ Download résumé (PDF)</a> &nbsp;·&nbsp;
+    <!-- EDIT: point this at your actual résumé file once you upload it to the repo -->
+    <a class="more" href="https://linkedin.com/in/akanksha-gavade">LinkedIn ↗</a></p>
+  </section>
+
+  <!-- ================= NEWS ================= -->
+  <section class="reveal">
+    <p class="eyebrow">Updates</p>
+    <h2 class="section-title">News</h2>
+    <hr class="section-rule">
+    <!-- EDIT: add a new <li class="news-item"> at the top each time you have an update -->
+    <ul class="news-list">
+      <li class="news-item">
+        <span class="news-date">2026</span>
+        <p>Third author on a paper under review at ACM TOCHI '26 — "Between Implications for Design and the Implication Not to Design."</p>
+      </li>
+      <li class="news-item">
+        <span class="news-date">2026</span>
+        <p>Third author on a second paper under review at CSCW '26, alongside the semantic-search work peer-reviewed with the DAS Lab.</p>
+      </li>
+      <li class="news-item">
+        <span class="news-date">02.2025</span>
+        <p>Back from Germany! Wrapped up the Ruhr Fellowship research at TU Dortmund.</p>
+      </li>
+      <li class="news-item">
+        <span class="news-date">04.2025</span>
+        <p>Received the Ruhr Fellowship to conduct academic research in Business &amp; Entrepreneurship at the Technical University of Dortmund (TUD) this summer.</p>
+      </li>
+    </ul>
   </section>
 
   <!-- ================= STATS ================= -->
@@ -167,7 +192,6 @@ Website going through a major renovation. Please check back in a day or two!
 <script src="js/main.js"></script>
 </body>
 </html>
-
 ## About Me
 
 Hello! I’m Akanksha, a senior in Lehigh’s Integrated Business & Engineering Honors program, where I’m pursuing dual degrees in Industrial & Systems Engineering and IBE Financial Engineering. I'm an international student from Mumbai, India. 
