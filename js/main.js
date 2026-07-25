@@ -1,4 +1,3 @@
-
 // ---- Active nav link ----
 document.addEventListener("DOMContentLoaded", () => {
   const path = location.pathname.split("/").pop() || "index.html";
