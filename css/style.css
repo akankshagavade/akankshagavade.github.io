@@ -20,6 +20,16 @@
   --maxw: 900px;
 }
 
+.float-photo{
+  float: right;
+  width: 280px;
+  max-width: 45%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  margin: 4px 0 20px 30px;
+}
+
 *{ box-sizing: border-box; }
 html{ scroll-behavior: smooth; }
 
