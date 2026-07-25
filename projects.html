@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects &amp; Models — Akanksha Gavade</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site wrap">
+  <div class="header-row">
+    <p class="site-name">Akanksha Gavade</p>
+    <nav class="primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experience.html">Experience</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section style="margin-top:36px;">
+    <h1 style="font-family:var(--font-display); color:var(--navy); font-size:clamp(1.8rem,3.6vw,2.4rem); margin:0 0 16px;">Projects &amp; Models</h1>
+    <p class="section-intro">Computational and design work, including
+    text analysis on financial filings and an accessibility-focused app
+    concept.</p>
+  </section>
+
+  <section>
+    <ul class="link-list">
+      <li>
+        <h3><a href="#lazy-prices">Replicating "Lazy Prices"</a></h3>
+        <p>NLP + cosine similarity + portfolio analysis on three decades of S&amp;P 500 10-K filings.</p>
+      </li>
+      <li>
+        <h3><a href="#sentiment-10k">Sentiment Analysis on 10-Ks</a></h3>
+        <p>Does the tone of a filing carry value-relevant information for future stock returns?</p>
+      </li>
+      <li>
+        <h3><a href="#mable">MABLE Indoor Navigation App</a></h3>
+        <p>Accessibility-focused smart-glasses concept for blind and low-vision indoor navigation.</p>
+      </li>
+      <li>
+        <h3><a href="#save-tuba">Save Tuba</a></h3>
+        <p>A sustainability-education game redesigned with teachers, for Kazakh- and Russian-medium classrooms.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+
+    <article class="entry" id="lazy-prices">
+      <h3>Replicating "Lazy Prices"</h3>
+      <p class="venue">Independent computational project · Jan–May 2025</p>
+      <p class="abstract-label">What it does</p>
+      <p>This project replicates and extends a landmark Harvard "Lazy Prices"
+      study using large-scale computational text analysis of three decades
+      (1993–2024) of 10-K filings across S&amp;P 500 firms. It combines
+      text mining, vector similarity (cosine similarity), and financial
+      econometrics to show that firms with more stable disclosure language
+      sustained stronger long-term stock performance. I built the end-to-end
+      Python pipeline spanning text processing, similarity scoring, and
+      portfolio construction.</p>
+      <div class="entry-links">
+        <a href="https://github.com/hannahmgordon/Final-Project-HPST">View the repo →</a>
+        <a href="https://lazypricesreplication.streamlit.app/">Open the live app →</a>
+      </div>
+      <div class="editnote">Editable: add a chart of your results, or a paragraph on what surprised you in the findings.</div>
+    </article>
+
+    <article class="entry" id="sentiment-10k">
+      <h3>Sentiment Analysis on 10-Ks</h3>
+      <p class="venue">Independent computational project</p>
+      <p class="abstract-label">What it does</p>
+      <p>This project investigates whether the sentiment in 10-K filings
+      contains value-relevant information for stock returns — specifically,
+      whether a document's positive or negative tone correlates with better or
+      worse stock performance.</p>
+      <div class="entry-links">
+        <a href="#">View the repo →</a>
+        <!-- EDIT: link to the actual repo/report for this project -->
+      </div>
+      <div class="editnote">Editable: add your methodology (which sentiment lexicon/model?), and a summary of results.</div>
+    </article>
+
+    <article class="entry" id="mable">
+      <h3>MABLE Indoor Navigation App</h3>
+      <p class="venue">Capstone &amp; Independent Study · with Dr. Vinod Namboodiri · Jan 2025 – May 2026</p>
+      <p class="abstract-label">What it does</p>
+      <p>MABLE identifies a market opportunity in healthcare and accessibility
+      through a competitive and landscape analysis of indoor navigation apps and
+      smart-glasses technologies. I mapped user journeys and flows for blind and
+      low-vision users to identify key friction points and accessibility gaps,
+      then authored technical specifications and a business case for
+      accessibility-focused smart glasses — with UI/UX recommendations grounded
+      directly in that journey map. I also designed a user-testing protocol to
+      validate usability and accessibility with target users ahead of
+      implementation.</p>
+      <div class="entry-links">
+        <a href="#">View journey map →</a>
+        <!-- EDIT: link to your journey map / spec doc once ready -->
+      </div>
+      <div class="editnote">Editable: this is an active project through May 2026 — keep updating this section as it progresses.</div>
+    </article>
+
+    <article class="entry" id="save-tuba">
+      <h3>Save Tuba — Sustainability Education App</h3>
+      <p class="venue">Global Social Impact Fellowship · Lehigh University · Jan – Dec 2023</p>
+      <p class="abstract-label">What it does</p>
+      <p>Save Tuba is a sustainability-education game. As a Global Social
+      Impact Fellow, I led end-to-end qualitative research for the app,
+      executing and synthesizing 6 focus groups with 30+ users across
+      Kazakh- and Russian-medium schools during a field deployment in
+      Kazakhstan. I translated that field research into new gamification and
+      inquiry-based learning features for the product roadmap, and localized
+      content and features for a multilingual, cross-cultural user base.</p>
+      <img src="images/app_ss.png" alt="Save Tuba app screenshot" style="margin: 14px 0; border: 1px solid var(--line);">
+      <div class="entry-links">
+        <a href="research.html#gsif">Read the related paper →</a>
+      </div>
+      <div class="editnote">Editable: add more app screenshots, or a before/after of a redesigned feature.</div>
+    </article>
+
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <span>
+      <a href="mailto:akgavade2944@gmail.com">Email</a> ·
+      <a href="https://linkedin.com/in/akanksha-gavade">LinkedIn</a> ·
+      <a href="https://github.com/akankshagavade">GitHub</a>
+    </span>
+    <span>Irvine, CA · Lehigh University → UC Irvine</span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
