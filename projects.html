@@ -65,7 +65,7 @@
       <div class="card">
         <!-- EDIT: swap in a real chart/screenshot once available -->
         <img class="card-thumb" src="images/lazy.png" alt="Lazy Prices project thumbnail">
-        <h3><a href="#lazy-prices">Replicating "Lazy Prices"</a></h3>
+        <h3><a href="#lazy-prices">Replicating and Extending "Lazy Prices"</a></h3>
         <p class="status-line">3 decades of 10-K data tells us that</p>
         <p>firms which keep their filing language consistent year to year tend to outperform.</p>
       </div>
@@ -208,10 +208,8 @@ I bridged the user research with concrete hardware and software requirements —
 
 
 <article class="entry" id="semantic-search">
-  <h3>Semantic Search Tool for a Legal Case Archive</h3>
-  <p class="venue">Data, Algorithms and Society Lab, Lehigh University · with Dr. Eric Baumer</p>
-  <p class="venue"> Do lawyers need better search, or a better filing system? Turns out, both.</p>
-      
+  <h3>Building For How People Actually Work</h3>
+  <p class="venue">Data, Algorithms and Society Lab, Lehigh University · with Dr. Eric Baumer</p>      
 
   <p class="abstract-label">What</p>
   <p> Lawyers weren't getting what they needed from the tools they
@@ -300,15 +298,17 @@ existing Dropbox workflow.
   <p class="abstract-label">Methods</p>
 
   <ul>
+          <li>Turned unstructured filing text into quantitative sentiment scores and features</li>
     <li>Applied NLP and dictionary-based sentiment analysis to SEC 10-K filings.</li>
     <li>Measured overall document sentiment and topic-specific sentiment (Environment, Manufacturing, Technology).</li>
     <li>Used financial sentiment lexicons to quantify positive and negative language.</li>
-    <li>Evaluated relationships between sentiment and stock returns using event studies and regression analysis.</li>
   </ul>
-  <p class="abstract-label">Outputs & Takeaways</p>
-      <li>Turned unstructured filing text into quantitative sentiment scores and features</li>
+  <p class="abstract-label">Findings</p>
+      <li>Optimistic language was tied to weaker returns and negative language to stronger ones </li>
     <li>Built regression models, scatterplots, and correlation heatmaps to visualize the relationship between sentiment and returns</li>
-  
+
+        <img src="images/app_ss.png" alt="Sentiment analysis project thumbnail" style="margin: 14px 0; border: 1px solid var(--line);">
+
   <div class="entry-links">
     <a href="#">View the project →</a>
   </div>
