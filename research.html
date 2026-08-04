@@ -5,221 +5,205 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Research &amp; Publications — Akanksha Gavade</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-page="research">
 
-<div class="layout">
-<aside class="sidebar">
-  <p class="site-name">Akanksha<br>Gavade</p>
-  <p class="site-tagline">HCI &amp; UX Researcher</p>
-  <nav class="primary">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="projects.html">Projects</a></li>
-    </ul>
-  </nav>
-  <div class="sidebar-contact">
+<div class="bg-texture"></div>
+
+<button class="mode-switch" onclick="toggleMode()" aria-label="Toggle between illustrated and professional layout">
+  <span class="lbl fun">Fun</span>
+  <span class="mode-switch-track"><span class="mode-switch-knob"></span></span>
+  <span class="lbl pro">Pro</span>
+</button>
+
+<div class="topbar">
+  <a class="brand" href="index.html">Akanksha Gavade</a>
+  <div class="social-row">
+    <a class="social-btn" href="mailto:agavade@uci.edu" title="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M2 6l10 7 10-7"></path></svg></a>
+    <a class="social-btn" href="https://linkedin.com/in/akanksha-gavade" title="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle><path d="M10 9v12M10 13c0-2 2-4 4.5-4S19 11 19 13v8"></path></svg></a>
+    <a class="social-btn" href="https://github.com/akankshagavade" title="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 00-1.3-3.2 4.2 4.2 0 00-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 00-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 00-.1 3.2A4.6 4.6 0 004 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"></path></svg></a>
+  </div>
+</div>
+
+<nav class="plain-nav">
+  <div>
+    <a class="site-name" href="index.html">Akanksha<br>Gavade</a>
+    <p class="tagline">HCI &amp; UX Researcher</p>
+  </div>
+  <ul>
+    <li><a class="nav-link" data-page="home" href="index.html">Home</a></li>
+    <li><a class="nav-link" data-page="research" href="research.html">Research</a></li>
+    <li><a class="nav-link" data-page="projects" href="projects.html">Projects</a></li>
+  </ul>
+  <div class="plain-contact">
     <a href="mailto:agavade@uci.edu">Email</a>
-    <a href="https://linkedin.com/in/akanksha-gavade">LinkedIn</a>
-    <a href="https://github.com/akankshagavade">GitHub</a>
-    <!-- <a href="AkankshaGavade_Resume.pdf">Résumé (PDF)</a> -->
-</aside>
+    <a href="https://linkedin.com/in/akanksha-gavade" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://github.com/akankshagavade" target="_blank" rel="noopener">GitHub</a>
+  </div>
+</nav>
 
-<div class="content">
-<main class="wrap">
-
-  <section style="margin-top:36px;">
-    <h1 style="font-family:var(--font-display); color:var(--navy); font-size:clamp(1.8rem,3.6vw,2.4rem); margin:0 0 16px;">Research &amp; Publications</h1>
-    <p class="section-intro"> A summary of my HCI research experiences, methods and outcomes. </p>
-  </section>
-
-<section>
-    <div class="card-grid">
-      <div class="card">
-        <!-- EDIT: swap in a real screenshot or diagram thumbnail once ready -->
-        <h3><a href="#mable"> Teacher Support during Covid-19 Pandemic</a></h3>
-        <p class="status-line"> Cornell · COMPASS '23</p>
-        <p>How low-income school teachers dealt with stress during the shift to hybrid education post-COVID.</p>
-      </div>
-      <div class="card">
-        <h3><a href="#save-tuba">To Build Or Not To Build</a></h3>
-        <p class="status-line"> Lehigh · Accepted, CSCW '26</p>
-        <p>Does good design always mean building something new?</p>
-      </div>
-      <div class="card">
-        <!-- EDIT: swap in a real screenshot once available -->
-        <h3><a href="#semantic-search">User Feedback Ellicitation</a></h3>
-                <p class="status-line"> Lehigh · Submitted </p>
-        <p> What kinds of feedback do people actually give vs what designers expect, when designing an algorithmic system?</p> </div>
-      <div class="card">
-        <!-- EDIT: swap in a real chart/screenshot once available -->
-        <h3><a href="#lazy-prices">Entrepreneurial Well-Being across Cultures</a></h3>
-        <p class="status-line">Ruhr Fellowship · Summer 2025 </p>
-        <p> How do entrepreneurs experience and manage well-being across Lehigh, Ruhr and Silicon Valley? </p>
-      </div>
-      
-      <div class="card">
-        <!-- EDIT: swap in a real chart/screenshot once available -->
-        <h3><a href="#sentiment-10k">Sentiment Analysis on 10-Ks</a></h3>
-      <p class="status-line">Computational Finance </p>
-        <p>What does a company's tone, positive or negative, say about where its stock is headed?</p>
-      </div>
-          <div class="card">
-      <h3><a href="#algo-trust">Can a Label Save Your Trust in AI?</a></h3>
-      <p class="status-line">Behavioral Economics · Independent Study </p>
-      <p>Testing whether how an AI is labeled, and what people expect from it, shapes whether they keep trusting it after a mistake.</p>
+<main>
+  <div class="content-card">
+    <div class="page-head">
+      <a class="back-link" href="index.html">← back to about</a>
+      <div class="eyebrow">Papers &amp; studies</div>
+      <h1>Research &amp; Publications</h1>
+      <p>A summary of my HCI research experiences, methods and outcomes. Click a card to jump to the full write-up below.</p>
     </div>
+
+    <div class="icon-grid">
+      <a class="icon-card no-thumb" href="#entry-compass23">
+        <div class="card-body">
+          <span class="icon-mini"><svg viewBox="0 0 24 24" fill="none" stroke="#2c2a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
+          <h4>Teacher Support during COVID-19</h4>
+          <span class="tag">Published · COMPASS '23</span>
+          <span class="desc">How low-income school teachers dealt with stress during the shift to hybrid education post-COVID.</span>
+        </div>
+      </a>
+
+      <a class="icon-card no-thumb" href="#entry-tochi26">
+        <div class="card-body">
+          <span class="icon-mini"><svg viewBox="0 0 24 24" fill="none" stroke="#2c2a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.5-3.5a5 5 0 01-6.7 6.7l-6.9 6.9a2 2 0 01-2.8-2.8l6.9-6.9a5 5 0 016.7-6.7z"/></svg></span>
+          <h4>To Build Or Not To Build</h4>
+          <span class="tag">Accepted · CSCW '26</span>
+          <span class="desc">Does good design always mean building something new?</span>
+        </div>
+      </a>
+
+      <a class="icon-card no-thumb" href="#entry-feedback26">
+        <div class="card-body">
+          <span class="icon-mini"><svg viewBox="0 0 24 24" fill="none" stroke="#2c2a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 01-1 4 8.5 8.5 0 01-7.5 4.5 8.4 8.4 0 01-4-1L3 21l2-5.5a8.4 8.4 0 01-1-4A8.5 8.5 0 0112.5 3 8.5 8.5 0 0121 11.5z"/></svg></span>
+          <h4>User Feedback Elicitation</h4>
+          <span class="tag">Submitted · IJHCI '26</span>
+          <span class="desc">What kinds of feedback do people actually give vs what designers expect, when designing an algorithmic system?</span>
+        </div>
+      </a>
+
+      <a class="icon-card no-thumb" href="#entry-ruhr">
+        <div class="card-body">
+          <span class="icon-mini"><svg viewBox="0 0 24 24" fill="none" stroke="#2c2a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 00-7.8 0L12 5.6l-1-1a5.5 5.5 0 00-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 000-7.8z"/></svg></span>
+          <h4>Entrepreneurial Well-Being Across Cultures</h4>
+          <span class="tag">Ruhr Fellowship · Summer 2025</span>
+          <span class="desc">How do entrepreneurs experience and manage well-being across Lehigh, Ruhr and Silicon Valley?</span>
+        </div>
+      </a>
+
+      <a class="icon-card no-thumb" href="#entry-algotrust">
+        <div class="card-body">
+          <span class="icon-mini"><svg viewBox="0 0 24 24" fill="none" stroke="#2c2a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span>
+          <h4>Framing, Expectations &amp; Trust in Algorithmic Advice</h4>
+          <span class="tag">Behavioral Economics · Independent Study</span>
+          <span class="desc">Testing whether how an AI is labeled, and what people expect from it, shapes whether they keep trusting it after a mistake.</span>
+        </div>
+      </a>
+
+      <a class="icon-card no-thumb" href="#entry-gsif">
+        <div class="card-body">
+          <span class="icon-mini"><svg viewBox="0 0 24 24" fill="none" stroke="#2c2a1f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M9 13.5L7 22l5-3 5 3-2-8.5"/></svg></span>
+          <h4>Redesigning Save Tuba</h4>
+          <span class="tag">Best Paper · GHTC '23</span>
+          <span class="desc">How teacher feedback from focus groups shaped the redesign of a sustainability-education app.</span>
+        </div>
+      </a>
     </div>
-  </section>
 
+    <div class="entries-heading"></div>
+    <div class="entries">
 
-  
-<section>
+      <article class="entry-full" id="entry-compass23">
+        <div class="venue">First Author, ACM COMPASS '23 · with Dr. Rama Adithya Varanasi (NYU) &amp; Dr. Nicola Dell (Cornell)</div>
+        <h3>Human-Centered Computing: Empirical Studies in HCI</h3>
+        <p class="lead">How low-income school teachers dealt with stress during the shift to hybrid education post-COVID.</p>
+        <p>Technology is generally built to improve productivity and reduce stress. However, in low-resource, low-income settings, technology itself can become a source of stress. During the pandemic, the shift to hybrid education caused teachers to experience isolation and burnout — though technology also served as a medium of support. We studied the stress teachers experienced and the support systems they used, then presented design recommendations for a tech-based support solution.</p>
+        <div class="sub">Methods</div>
+        <ul>
+          <li><strong>Thematic coding</strong> of 28 multilingual interviews (Hindi, Marathi, English) with teachers and school management</li>
+          <li><strong>Literature synthesis</strong> to build the theoretical framework and support cross-cultural analysis of technology, social support, organizational structures and well-being</li>
+        </ul>
+        <div class="links">
+          <a href="https://akankshagavade.github.io/images/COMPASS2023.pdf" target="_blank" rel="noopener">Read the paper (PDF) →</a>
+          <a href="https://drive.google.com/file/d/1fo6dtNweKz-4T8g2KqJx-djAAHrB_ciz/view?usp=sharing" target="_blank" rel="noopener">Watch the presentation →</a>
+        </div>
+      </article>
 
-  <article class="entry" id="compass23">
-    <h3>Human-Centered Computing: Empirical Studies in HCI</h3>
-    <p class="venue">First Author, ACM COMPASS '23 · Presented virtually, South Africa · with Dr. Rama Adithya Varanasi (NYU) and Dr. Nicola Dell, Cornell University</p>
-    <p class="status-line"><b>Published</b></p>
+      <article class="entry-full" id="entry-tochi26">
+        <div class="venue">Accepted at ACM CSCW '26</div>
+        <h3>Between Implications for Design and the Implication Not to Design</h3>
+        <p class="lead">Does good design always mean building something new?</p>
+        <p>Instead of always chasing the creation of new tools, this paper argues that the more valuable contribution is often studying and redesigning the technology people already use.</p>
+        <div class="sub">Methods</div>
+        <ul><li><strong>Long-term qualitative engagement</strong> with a legal nonprofit, shifting from building a novel system to redesigning existing information-management practices</li></ul>
+        <p><em>Will update more once the paper gets published.</em></p>
+      </article>
 
-    <p class="abstract-label">What</p>
-    <p> Technology is generally built to improve productivity and reduce stress. However, in low-resource, low-income settings, sometimes
-      technology itself becomes source of stress. During the pandemic, the shift to hybrid education caused teachers to experience isolation and burnout.
-      That said, technology also served as a medium or source of support to relieve said stress. We studied the kind of stress teachers experienced 
-      and the different types of support systems they used. We also presented design recommendations for  a tech-based support solution. </p>
+      <article class="entry-full" id="entry-feedback26">
+        <div class="venue">Under review at IJHCI '26</div>
+        <h3>Identifying the Types of Feedback Users Provide During Algorithmic System Design</h3>
+        <p class="lead">What kinds of feedback do people actually give vs. what designers expect?</p>
+        <p>Users provide valuable feedback when it comes to designing algorithmic systems. However, it's important to know what users comment on, how they express it, and how the format of engagement itself affects what feedback is received. Using data collected from five years of participatory design, we identify and close the gap between what feedback designers expect vs. what users actually provide.</p>
+        <div class="sub">Methods</div>
+        <ul><li><strong>Semi-structured interviews</strong></li><li><strong>Speculative workshops</strong></li><li><strong>Think-aloud sessions</strong></li></ul>
+        <p><em>Will update more once the paper gets published.</em></p>
+      </article>
 
-    <p class="abstract-label">Methods</p>
-    <ul>
-     
-      <li><strong>Thematic coding</strong> of 28 multilingual interviews (Hindi, Marathi, English) with teachers and school management</li>
-       <li><strong>Literature Synthesis </strong> to build the theoretical framework and support cross-cultural analysis of technology, social
-support, organizational structures and well-being.</li>
-    </ul>
+      <article class="entry-full" id="entry-ruhr">
+        <div class="venue">Ruhr Fellowship · Technical University of Dortmund · Summer 2025</div>
+        <h3>Entrepreneurial Well-Being Across Cultures</h3>
+        <p class="lead">How do entrepreneurs experience and manage well-being across cultures?</p>
+        <p>Entrepreneurship looks different depending on where you are, and so does the toll it takes on the people doing it. This study compares the well-being needs of entrepreneurs across three startup ecosystems: Ruhr, Lehigh, and Silicon Valley — what's working, what challenges persist, and what kinds of support systems could truly make a difference.</p>
+        <div class="sub">Methods</div>
+        <ul>
+          <li><strong>Literature synthesis</strong> of 50+ academic papers to build a theoretical framework and inform a grant submission</li>
+          <li><strong>Participant recruitment</strong> via snowball sampling and cold outreach, resulting in 10 interviews</li>
+          <li><strong>Semi-structured interviews and analysis</strong>, synthesizing findings for academic and institutional stakeholders</li>
+        </ul>
+      </article>
 
-    <div class="entry-links">
-      <a href="images/COMPASS2023.pdf">Read the paper (PDF) →</a>
-      <a href="https://drive.google.com/file/d/1fo6dtNweKz-4T8g2KqJx-djAAHrB_ciz/view?usp=sharing">Watch the presentation (June 2023) →</a>
+      <article class="entry-full" id="entry-algotrust">
+        <div class="venue">Independent study · with Dr. Felipe Augusto de Araujo · Jan–May 2026</div>
+        <h3>Framing, Expectations, and Trust in Algorithmic Advice</h3>
+        <p class="lead">Can a label save your trust in AI?</p>
+        <p>People often stop trusting an AI's advice the moment it makes a mistake, but it's unclear how much that depends on how the AI was described beforehand. This study tests whether calling an AI a "learning" system makes people more forgiving of an early error than calling it fixed, and whether setting high expectations upfront makes a mistake feel like a bigger betrayal.</p>
+        <div class="sub">Methods</div>
+        <ul>
+          <li><strong>Literature synthesis</strong> across algorithm aversion, prospect theory, and expectation violation theory</li>
+          <li><strong>2×2 experimental design</strong> manipulating AI labeling (learning vs. static) and expectation framing (high vs. low)</li>
+        </ul>
+      </article>
+
+      <article class="entry-full" id="entry-gsif">
+        <div class="venue">Global Social Impact Fellowship 2023 · Best Paper Award, GHTC '23</div>
+        <h3>How Teacher Feedback Helped Reimagine, Redesign, and Recode Save Tuba</h3>
+        <img src="https://akankshagavade.github.io/images/app_ss.png" alt="Save Tuba app screenshot">
+        <p class="lead">How teacher feedback shaped a sustainability education app.</p>
+        <p>This paper details how teacher feedback from focus groups shaped the redesign of Save Tuba, a sustainability-education app for elementary-school students in Kazakhstan.</p>
+        <div class="links">
+          <a href="https://akankshagavade.github.io/images/GSIFpaper.pdf" target="_blank" rel="noopener">Read the paper (PDF) →</a>
+          <a href="https://savetuba.com/" target="_blank" rel="noopener">See the app →</a>
+        </div>
+      </article>
+
     </div>
-  </article>
-
-  <article class="entry" id="tochi26">
-    <h3>Between Implications for Design and the Implication Not to Design: Advocating for Artful Reconfiguration</h3>
-    <p class="venue">Accepted at ACM CSCW '26</p>
-    <p class="abstract-label">What</p>
-    <p>Instead of always chasing the creation of new tools, this paper
-    argues that the more valuable contribution is often studying and
-    redesigning the technology people already use.</p>
-
-    <p class="abstract-label">Methods</p>
-    <ul>
-      <li><strong>Long-term qualitative engagement</strong> with a legal nonprofit, shifting from building a novel system to redesigning existing information-management practices</li>
-    </ul>
-
-<div class="editnote"> Will update more once the paper gets published. </div>
-
-    
-
-  </article>
-
-  <article class="entry" id="feedback26">
-    <h3>Identifying the Types of Feedback That Users Provide During the Design of Data-Driven Algorithmic Systems</h3>
-    <p class="venue">Under review at IJHCI '26</p>
-    <p class="status-line"><b>Under Review</b></p>
-
-    <p class="abstract-label">What</p>
-    <!-- EDIT: paste the real abstract here once you have it -->
-    <p> Users provide valuable feedback when it comes to designing algorithmic systems. However, it is important to know what users comment on, 
-    how they express it and how the format of engagement itself affects what feedback is received. Using the data collected from five years 
-    of participatory design, we can now identify and close the gap between what feedback designers expect vs what feedback users actually 
-    provide. </p>
-
-    <p class="abstract-label">Methods</p>
-  <ul class="skills-list">
-  <li>Semi-structured Interviews</li>
-  <li>Speculative Workshops</li>
-  <li>Think Aloud Sessions</li>
-</ul>
-<div class="editnote"> Will update more once the paper gets published. </div>
-
-
-    
-  </article>
-
-  <article class="entry" id="ruhr-fellowship">
-    <h3>Entrepreneurial Well-Being Across Cultures</h3>
-    <p class="venue">Ruhr Fellowship · Technical University of Dortmund, Germany · Summer 2025</p>
-
-    <p class="abstract-label">What</p>
-    <p>Entrepreneurship looks different depending on where you are, and
-    so does the toll it takes on the people doing it. This study
-    compares the well-being needs of entrepreneurs across three
-    different startup ecosystems: Ruhr, Lehigh, and Silicon Valley.  
-How do entrepreneurs and innovators experience and manage well-being in the context of their work, across different cultural, institutional,
-      and economic settings? We aim to understand what’s working, what challenges persist, and what kinds of support systems could truly make a difference.</p>
-
-    <p class="abstract-label">Methods</p>
-    <ul>
-      <li><strong>Literature synthesis</strong> of 50+ academic papers to build a theoretical framework and inform a grant submission</li>
-      <li><strong>Participant recruitment</strong> via snowball sampling and cold outreach, resulting in 10 interviews</li>
-      <li><strong>Semi-structured Interviews and Analysis</strong>, synthesizing findings for academic and institutional stakeholders</li>
-    </ul>
-
-  </article>
-
-
-  <article class="entry" id="algo-trust">
-    <h3>Framing, Expectations, and Trust in Algorithmic Advice</h3>
-    <p class="venue">Independent study · with Dr. Felipe Augusto de Araujo · January 2026 - May 2026 </p>
-
-    <p class="abstract-label">What</p>
-    <p>People often stop trusting an AI's advice the moment it makes a
-    mistake, but it's unclear how much that depends on how the AI was
-    described beforehand. This study tests whether calling an AI a
-    "learning" system makes people more forgiving of an early error
-    than calling it fixed, and whether setting high expectations
-    upfront makes a mistake feel like a bigger betrayal.</p>
-
-    <p class="abstract-label">Methods</p>
-    <ul>
-      <li><strong>Literature synthesis</strong> across algorithm aversion, prospect theory, and expectation violation theory to build the study's hypotheses</li>
-      <li><strong>2×2 experimental design</strong> manipulating AI labeling (learning vs. static) and expectation framing (high vs. low)</li>
-    </ul>
-
-  </article>
-
-</section>
-
-
-  
-    <article class="entry" id="gsif">
-      <h3>How Teacher Feedback Helped Reimagine, Redesign, and Recode a Sustainability Education App</h3>
-      <p class="venue">Global Social Impact Fellowship 2023 · Supervised by Dr. Khanjan Mehta · Save Tuba project</p>
-      <p class="status-line"><b>Best Paper Award</b> · GHTC '23</p>
-      <p class="abstract-label">Abstract</p>
-      <p> This paper details how teacher feedback from focus groups shaped
-the redesign of Save Tuba, a sustainability-education app for
-elementary-school students in Kazakhstan.  
-       </p>
-      <div class="entry-links">
-        <a href="images/GSIFpaper.pdf">Read the paper (PDF) →</a>
-        <a href="https://savetuba.com/">See the app project →</a>
-      </div>
-    </article>
-
-  
-  </section>
-
+  </div>
 </main>
 
-<footer id="contact">
-  <div class="wrap">
-    <span> UC Irvine | Irvine, California </span>
-  </div>
-</footer>
+<footer class="mock-note">mockup · original layout &amp; illustration, content pulled from akankshagavade.github.io</footer>
 
-</div>
+<div class="dock" id="dock">
+  <a class="folder-btn" data-page="home" href="index.html">
+    <svg class="folder-icon" viewBox="0 0 104 82"><path d="M4 24 L4 74 Q4 78 8 78 L96 78 Q100 78 100 74 L100 30 Q100 26 96 26 L52 26 L44 14 L8 14 Q4 14 4 18 Z" fill="#e3d4a9" stroke="#2c2a1f" stroke-width="4" stroke-linejoin="round"/><g class="flap"><path d="M4 30 L14 68 Q15 72 19 72 L92 72 Q96 72 97 68 L104 34 Q105 30 101 30 L8 30 Q5 30 4 30 Z" fill="#f1e6c8" stroke="#2c2a1f" stroke-width="4" stroke-linejoin="round"/></g><circle cx="80" cy="16" r="13" fill="#bcd49a" stroke="#2c2a1f" stroke-width="3"/><path d="M75 18 q5 -10 10 -2 M80 16 q0 -6 0 -10" stroke="#2c2a1f" stroke-width="2.4" fill="none" stroke-linecap="round"/></svg>
+    <span class="folder-name">About</span><span class="folder-sub">bio · methods · tools</span>
+  </a>
+  <a class="folder-btn" data-page="projects" href="projects.html">
+    <svg class="folder-icon" viewBox="0 0 104 82"><path d="M4 24 L4 74 Q4 78 8 78 L96 78 Q100 78 100 74 L100 30 Q100 26 96 26 L52 26 L44 14 L8 14 Q4 14 4 18 Z" fill="#e3d4a9" stroke="#2c2a1f" stroke-width="4" stroke-linejoin="round"/><g class="flap"><path d="M4 30 L14 68 Q15 72 19 72 L92 72 Q96 72 97 68 L104 34 Q105 30 101 30 L8 30 Q5 30 4 30 Z" fill="#f1e6c8" stroke="#2c2a1f" stroke-width="4" stroke-linejoin="round"/></g><rect x="70" y="4" width="24" height="24" rx="4" fill="#d9a679" stroke="#2c2a1f" stroke-width="3"/><path d="M76 22 L88 10 M76 10 h6 v6" stroke="#2c2a1f" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span class="folder-name">Projects</span><span class="folder-sub">design &amp; field work</span>
+  </a>
+  <a class="folder-btn" data-page="research" href="research.html">
+    <svg class="folder-icon" viewBox="0 0 104 82"><path d="M4 24 L4 74 Q4 78 8 78 L96 78 Q100 78 100 74 L100 30 Q100 26 96 26 L52 26 L44 14 L8 14 Q4 14 4 18 Z" fill="#e3d4a9" stroke="#2c2a1f" stroke-width="4" stroke-linejoin="round"/><g class="flap"><path d="M4 30 L14 68 Q15 72 19 72 L92 72 Q96 72 97 68 L104 34 Q105 30 101 30 L8 30 Q5 30 4 30 Z" fill="#f1e6c8" stroke="#2c2a1f" stroke-width="4" stroke-linejoin="round"/></g><circle cx="78" cy="14" r="9" fill="none" stroke="#2c2a1f" stroke-width="3"/><line x1="85" y1="21" x2="94" y2="30" stroke="#2c2a1f" stroke-width="3.4" stroke-linecap="round"/></svg>
+    <span class="folder-name">Research</span><span class="folder-sub">papers &amp; studies</span>
+  </a>
 </div>
 
 <script src="js/main.js"></script>
