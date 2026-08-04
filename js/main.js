@@ -1,26 +1,41 @@
-// ---- Active nav link ----
-document.addEventListener("DOMContentLoaded", () => {
-  const path = location.pathname.split("/").pop() || "index.html";
-  document.querySelectorAll("nav.primary a").forEach(a => {
-    if (a.getAttribute("href") === path) a.classList.add("active");
+function applyMode(mode){
+  document.body.classList.toggle('plain', mode === 'plain');
+  document.querySelectorAll('.mode-switch .lbl').forEach(function(l){ l.classList.remove('on'); });
+  var activeSel = mode === 'plain' ? '.mode-switch .pro' : '.mode-switch .fun';
+  var el = document.querySelector(activeSel);
+  if(el) el.classList.add('on');
+}
+
+function toggleMode(){
+  var next = document.body.classList.contains('plain') ? 'fun' : 'plain';
+  try { localStorage.setItem('site-mode', next); } catch(e){}
+  applyMode(next);
+}
+
+function openModal(id){
+  var modal = document.getElementById('modal-' + id);
+  if(!modal) return;
+  modal.classList.add('active');
+  document.getElementById('scrim').classList.add('active');
+}
+
+function closeModal(){
+  document.querySelectorAll('.modal').forEach(function(m){ m.classList.remove('active'); });
+  document.getElementById('scrim').classList.remove('active');
+}
+
+document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+document.addEventListener('DOMContentLoaded', function(){
+  var saved = 'fun';
+  try { saved = localStorage.getItem('site-mode') || 'fun'; } catch(e){}
+  applyMode(saved);
+
+  var page = document.body.getAttribute('data-page');
+  document.querySelectorAll('.folder-btn').forEach(function(b){
+    b.classList.toggle('is-active', b.dataset.page === page);
   });
-
-  // ---- Scroll reveal ----
-  const items = document.querySelectorAll(".reveal");
-  if ("IntersectionObserver" in window && items.length){
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); }
-      });
-    }, { threshold: 0.12 });
-    items.forEach(el => io.observe(el));
-  } else {
-    items.forEach(el => el.classList.add("in"));
-  }
-
-  // ---- "Issue" date stamp in masthead (edit or remove freely) ----
-  const stamp = document.querySelector("[data-issue-date]");
-  if (stamp){
-    stamp.textContent = "Updated " + new Date().toLocaleDateString("en-US", { month: "long", year: "numeric" });
-  }
+  document.querySelectorAll('.plain-nav a.nav-link').forEach(function(a){
+    a.classList.toggle('is-active', a.dataset.page === page);
+  });
 });
