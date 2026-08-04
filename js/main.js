@@ -27,8 +27,8 @@ function closeModal(){
 document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
 
 document.addEventListener('DOMContentLoaded', function(){
-  var saved = 'fun';
-  try { saved = localStorage.getItem('site-mode') || 'fun'; } catch(e){}
+  var saved = 'plain';
+  try { saved = localStorage.getItem('site-mode') || 'plain'; } catch(e){}
   applyMode(saved);
 
   var page = document.body.getAttribute('data-page');
