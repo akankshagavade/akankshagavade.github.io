@@ -107,6 +107,16 @@
           <span class="desc">Where does a manufacturing line actually lose time?</span>
         </div>
       </a>
+
+      <a class="icon-card" href="#copilot">
+        <img class="card-thumb" src="https://akankshagavade.github.io/images/cop.png" alt="Copilot thumbnail">
+        <div class="card-body">
+          <h4> Research Copilot: Can AI Actually Run Customer Discovery? </h4>
+          <span class="tag"> with Human Validation layer </span>
+          <span class="desc"> Where does AI fall short of a human researcher and human subjects? </span>
+        </div>
+      </a>
+      
     </div>
 
     <div class="entries-heading"></div>
@@ -286,6 +296,22 @@
           <li><strong>Collected, cleaned, and validated raw machine data</strong> from multiple production units</li>
           <li><strong>Analyzed the data</strong> to identify bottlenecks, irregularities, and document the actual process flow</li>
         </ul>
+      </article>
+
+        <article class="entry-full" id="cop">
+        <div class="venue"> Project</div>
+        <h3>Research Copilot: Can AI Actually Run Customer Discovery?</h3>
+        <img src="https://akankshagavade.github.io/images/cop.png" alt="research copilot thumbnail">
+        <p class="lead">Where does a manufacturing line actually lose time?</p>
+        <p>I built an end-to-end AI research tool that simulates customer interviews from a given persona, extracts themes and pain points, and builds a prioritized product roadmap. 
+          I also built in a mechanisms for manual approvals and self-checking at each stage so nothing advances without an verified evidence chain and a person's sign-off. 
+          I tested it on a synthetic study of gig workers managing their finances to see exactly where AI-driven synthesis holds up and where it falls short.</p>
+        <div class="sub">Methods</div>
+        <ul>
+          <li><strong>Built a two-pass AI pipeline</strong> (Python, Streamlit, Gemini API) that generates simulated interviews and extracts findings independently, to avoid trusting one black-box output</li>
+          <li><strong>Designed an evidence-gated review system</strong> requiring every AI-generated finding to be backed by a verbatim quote and manually accepted, edited, or rejected before further synthesis</li>
+          <li><strong>Implemented theme clustering and RICE-based roadmap prioritization</strong> with human override, tracking frequency and severity separately so infrequent-but-serious issues aren't buried</li>
+         </ul>
       </article>
 
     </div>
