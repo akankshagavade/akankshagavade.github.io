@@ -308,7 +308,7 @@
       </article>
 
         <article class="entry-full" id="copilot">
-        <div class="venue"> Project</div>
+        <div class="venue"> Personal Project · Tinkering with AI</div>
         <h3>Research Copilot: Can AI Actually Run Customer Discovery?</h3>
         <img src="https://akankshagavade.github.io/images/cop.png" alt="research copilot thumbnail">
         <p class="lead">Could an AI-run discovery process get to a real, defensible product insight, and where would it fall short of human researchers and human subjects?</p>
@@ -321,10 +321,31 @@
           <li><strong>Designed an evidence-gated review system</strong> requiring every AI-generated finding to be backed by a verbatim quote and manually accepted, edited, or rejected before further synthesis</li>
           <li><strong>Implemented theme clustering and RICE-based roadmap prioritization</strong> with human override, tracking frequency and severity separately so infrequent-but-serious issues aren't buried</li>
          </ul>
-
 <div class="links">
           <a href="https://app.notion.com/p/Research-Copilot-Can-AI-Actually-Run-Customer-Discovery-3b46d657c2d180a7b896ed5764c49056?source=copy_link" target="_blank" rel="noopener">Read the process in-depth→</a>
           <a href="https://ai-assisted-pro-discovery-platform.streamlit.app/" target="_blank" rel="noopener">See the app →</a>
+        </div>
+          
+      </article>
+              <article class="entry-full" id="sim">
+        <div class="venue"> Personal Project · Tinkering with AI</div>
+        <h3>Can AI rebuild a person from a fragment of them?</h3>
+        <img src="https://akankshagavade.github.io/images/sim.png" alt="research copilot thumbnail">
+        <p class="lead">Could an AI-run discovery process get to a real, defensible product insight, and where would it fall short of human researchers and human subjects?</p>
+        <p>I built an end-to-end pipeline to test whether an AI can reconstruct a specific person from only part of what they said. 
+          I created six fictional students (grade 3 through college sophomore, each with a specified knowledge boundary and their own way of talking) 
+          and generated ground-truth conversations for each, then showed a second AI only 60% of each one and had it infer a profile.
+         Then I tested the reconstruction for conversation drift and recoverability </p>
+        <div class="sub">Methods</div>
+        <ul>
+          <li><strong>Built a two-pass AI pipeline</strong> (Python, Claude, Gemini API) that generates ground-truth data with one model family and reconstructs it with a separate one </li>
+          <li>Designed a three-dimension fidelity rubric (knowledge, style, naturalness/drift), each backed by both an AI judge and objective non-AI metrics (Flesch-Kincaid grade level, sentence length, text similarity)</li>
+          <li>Ran a blind human-validation pass against the AI judge's scores</li>
+         </ul>
+
+
+<div class="links">
+          <a href="https://app.notion.com/p/How-Much-of-a-Person-Survives-when-Simulated-3b66d657c2d18009b562decdd223782d?source=copy_link" target="_blank" rel="noopener">Read the process in-depth→</a>
         </div>
           
       </article>
