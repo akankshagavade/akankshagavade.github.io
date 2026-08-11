@@ -304,11 +304,11 @@
         <div class="venue"> A/B Testing · Statistics </div>
         <h3>Are Ad campaigns actually effective? An A/B Test on real data </h3>
         <img src="https://akankshagavade.github.io/images/ab.png" alt="research copilot thumbnail">
-        <p class="lead">An experiment in persona reconstruction, drift, and where AI simulations fall apart. </p>
+        <p class="lead">Testing whether ads beat PSAs, and how much the win actually mattered once exposure and effect size were accounted for.</p>
         <p>I ran a full statistical pipeline on a real campaign dataset of 588,000 observations, 
           where one group shown actual product ads and a smaller control group shown a generic public service announcement instead. 
           This study set out to answer four connected questions: <ul>
-          <li>Did showing people ads actually cause more conversions? </li>i
+          <li>Did showing people ads actually cause more conversions? </li>
             <li>How big was the effect?</li>
                  <li>How does the amount of exposure matter</li>
             <li>How does the timing matter?</li>
@@ -320,10 +320,23 @@
           <li> <strong> Chi-square test with effect size checks</strong>  (risk difference, relative lift, Cramér's V, and confidence intervals) to confirm the result was real and size it  </li>
           <li> <strong> Dose-response testing  </strong>(Shapiro-Wilk, t-test, Wilcoxon) on ad exposure, followed by three separate ways of modeling it: fixed cutoff buckets, quantile-based buckets, and a logistic regression</li>
           <li> <strong> Converted the statistical findings into insights and business recommendations</strong>, where to prioritize ad spend, and which days and hours underperform </li>
-         </ul>
+         </ul> </div> 
 
             <div class="links">
           <a href="https://app.notion.com/p/Does-Ad-Exposure-Actually-Drive-Conversion-or-Is-It-Just-Chance-3b86d657c2d180669480fd5393728607?source=copy_link" target="_blank" rel="noopener">Read the report and code in-depth→</a>
+        </div>
+
+              <div class="sub">Funnel Analytics Project</div>   
+                   <p>I ran a similar statistical pipeline on a smaller test vs. control marketing funnel dataset, tracking users from Impressions to Purchases. My study answered
+                   the question: Where in the funnel did each campaign lose the most people?
+                   </p>
+         <div class="sub">Methods</div>
+        <ul>
+          <li> <strong> Analysis and Funnel visualization </strong>  (funnel totals, stage-to-stage conversion, a normalized retention curve, a time series, and a triangle-shaped funnel chart)</li>
+          <li> <strong> Validated the method itself </strong>by building a synthetic dataset with a known, deliberately injected difference</li>
+         </ul> </div> 
+  <div class="links">
+          <a href="https://app.notion.com/p/Does-a-Funnel-Redesign-Actually-Change-How-People-Convert-3b86d657c2d1806d8d05c6163ecbfb25?source=copy_link" target="_blank" rel="noopener">Read the report and code in-depth→</a>
         </div>
                       </article>
       
