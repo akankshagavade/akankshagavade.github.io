@@ -81,6 +81,35 @@
         </div>
       </a>
 
+      
+      <a class="icon-card" href="#copilot">
+        <img class="card-thumb" src="https://akankshagavade.github.io/images/cop.png" alt="Copilot thumbnail">
+        <div class="card-body"> 
+          <h4> Research Copilot: Can AI Actually Run Customer Discovery? </h4>
+          <span class="tag"> AI evaluation · Tinkering with AI </span>
+          <span class="desc"> Where does AI fall short of a human researcher and human subjects? </span>
+        </div>
+      </a>
+
+        <a class="icon-card" href="#sim">
+        <img class="card-thumb" src="https://akankshagavade.github.io/images/sim.jpeg" alt="UserSim thumbnail">
+        <div class="card-body">
+          <h4> Can AI rebuild a person from a fragment of them? </h4>
+          <span class="tag"> AI evaluation · Tinkering with AI </span>
+          <span class="desc"> An experiment in persona reconstruction, drift, and where AI simulations fall apart. </span>
+        </div>
+      </a>
+
+          <a class="icon-card" href="#abtest">
+        <img class="card-thumb" src="https://akankshagavade.github.io/images/ab.jpeg" alt="UserSim thumbnail">
+        <div class="card-body">
+          <h4> A/B Testing Ad Exposure: Real Effect or Just a Big Sample? </h4>
+          <span class="tag"> A/B Testing · Statistics </span>
+          <span class="desc"> Testing whether ads beat PSAs, and how much the win actually mattered once exposure and effect size were accounted for. </span>
+        </div>
+      </a>
+      
+
       <a class="icon-card" href="#entry-lazyprices">
         <img class="card-thumb" src="https://akankshagavade.github.io/images/lazy.png" alt="Lazy Prices project thumbnail">
         <div class="card-body">
@@ -108,23 +137,6 @@
         </div>
       </a>
 
-      <a class="icon-card" href="#copilot">
-        <img class="card-thumb" src="https://akankshagavade.github.io/images/cop.png" alt="Copilot thumbnail">
-        <div class="card-body"> 
-          <h4> Research Copilot: Can AI Actually Run Customer Discovery? </h4>
-          <span class="tag"> AI evaluation · Tinkering with AI </span>
-          <span class="desc"> Where does AI fall short of a human researcher and human subjects? </span>
-        </div>
-      </a>
-
-        <a class="icon-card" href="#sim">
-        <img class="card-thumb" src="https://akankshagavade.github.io/images/sim.jpeg" alt="UserSim thumbnail">
-        <div class="card-body">
-          <h4> Can AI rebuild a person from a fragment of them? </h4>
-          <span class="tag"> AI evaluation · Tinkering with AI </span>
-          <span class="desc"> An experiment in persona reconstruction, drift, and where AI simulations fall apart. </span>
-        </div>
-      </a>
       
     </div>
 
@@ -251,7 +263,69 @@
         <div class="links"><a href="research.html#entry-tochi26">Read the related paper →</a></div>
       </article>
 
+ <article class="entry-full" id="copilot">
+        <div class="venue"> Personal Project · Tinkering with AI</div>
+        <h3>Research Copilot: Can AI Actually Run Customer Discovery?</h3>
+        <img src="https://akankshagavade.github.io/images/cop.png" alt="research copilot thumbnail">
+        <p class="lead">Could an AI-run discovery process get to a real, defensible product insight, and where would it fall short of human researchers and human subjects?</p>
+        <p>I built an end-to-end AI research tool that simulates customer interviews from a given persona, extracts themes and pain points, and builds a prioritized product roadmap. 
+          I also built in a mechanisms for manual approvals and self-checking at each stage so nothing advances without an verified evidence chain and a person's sign-off. 
+          I tested it on a synthetic study of gig workers managing their finances to see exactly where AI-driven synthesis holds up and where it falls short.</p>
+        <div class="sub">Methods</div>
+        <ul>
+          <li><strong>Built a two-pass AI pipeline</strong> (Python, Streamlit, Gemini API) that generates simulated interviews and extracts findings independently, to avoid trusting one black-box output</li>
+          <li><strong>Designed an evidence-gated review system</strong> requiring every AI-generated finding to be backed by a verbatim quote and manually accepted, edited, or rejected before further synthesis</li>
+          <li><strong>Implemented theme clustering and RICE-based roadmap prioritization</strong> with human override, tracking frequency and severity separately so infrequent-but-serious issues aren't buried</li>
+         </ul>
+<div class="links">
+          <a href="https://app.notion.com/p/Research-Copilot-Can-AI-Actually-Run-Customer-Discovery-3b46d657c2d180a7b896ed5764c49056?source=copy_link" target="_blank" rel="noopener">Read the process in-depth→</a>
+          <a href="https://ai-assisted-pro-discovery-platform.streamlit.app/" target="_blank" rel="noopener">See the app →</a>
+        </div>
+          
+      </article>
+              <article class="entry-full" id="sim">
+        <div class="venue"> Personal Project · Tinkering with AI</div>
+        <h3>Can AI rebuild a person from a fragment of them?</h3>
+        <img src="https://akankshagavade.github.io/images/sim1.jpeg" alt="research copilot thumbnail">
+        <p class="lead">An experiment in persona reconstruction, drift, and where AI simulations fall apart. </p>
+        <p>I built an end-to-end pipeline to test whether an AI can reconstruct a specific person from only part of what they said. 
+          I created six fictional students (grade 3 through college sophomore, each with a specified knowledge boundary and their own way of talking) 
+          and generated ground-truth conversations for each, then showed a second AI only 60% of each one and had it infer a profile.
+         Then I tested the reconstruction for conversation drift and recoverability </p>
+        <div class="sub">Methods</div>
+        <ul>
+          <li><strong>Built a two-pass AI pipeline</strong> (Python, Claude, Gemini API) that generates ground-truth data with one model family and reconstructs it with a separate one </li>
+          <li>Designed a three-dimension fidelity rubric (knowledge, style, naturalness/drift), each backed by both an AI judge and objective non-AI metrics (Flesch-Kincaid grade level, sentence length, text similarity)</li>
+          <li>Ran a blind human-validation pass against the AI judge's scores</li>
+         </ul>
+                      </article>
 
+                 <article class="entry-full" id="sim">
+        <div class="venue"> A/B Testing · Statistics </div>
+        <h3>Are Ad campaigns actually effective? An A/B Test on real data </h3>
+        <img src="https://akankshagavade.github.io/images/ab.jpeg" alt="research copilot thumbnail">
+        <p class="lead">An experiment in persona reconstruction, drift, and where AI simulations fall apart. </p>
+        <p>I ran a full statistical pipeline on a real campaign dataset of 588,000 observations, 
+          where one group shown actual product ads and a smaller control group shown a generic public service announcement instead. 
+          This study set out to answer four connected questions: 
+
+- Did showing people ads actually cause more conversions, or could the gap be explained by chance?
+- If ads did work, how big was that effect really, statistically significant doesn't always mean practically important.
+- Did the amount of exposure matter, does seeing more ads change someone's odds of converting, and does that effect work the same way for people who only saw a PSA (or nothing)?
+- And finally, does timing matter, are some days or hours simply better windows for reaching people who convert?
+          
+         </p>
+        <div class="sub">Methods</div>
+        <ul>
+          <li> <strong> Chi-square test with effect size checks</strong>  (risk difference, relative lift, Cramér's V, and confidence intervals) to confirm the result was real and size it  </li>
+          <li> <strong> Dose-response testing  </strong>(Shapiro-Wilk, t-test, Wilcoxon) on ad exposure, followed by three separate ways of modeling it: fixed cutoff buckets, quantile-based buckets, and a logistic regression</li>
+          <li> <strong> Converted the statistical findings into insights and business recommendations</strong>, where to prioritize ad spend, and which days and hours underperform </li>
+         </ul>
+
+            <div class="links">
+          <a href="https://app.notion.com/p/Does-Ad-Exposure-Actually-Drive-Conversion-or-Is-It-Just-Chance-3b86d657c2d180669480fd5393728607?source=copy_link" target="_blank" rel="noopener">Read the report and code in-depth→</a>
+        </div>
+                      </article>
       
       <article class="entry-full" id="entry-lazyprices">
         <div class="venue">Computational Finance</div>
@@ -306,42 +380,6 @@
           <li><strong>Analyzed the data</strong> to identify bottlenecks, irregularities, and document the actual process flow</li>
         </ul>
       </article>
-
-        <article class="entry-full" id="copilot">
-        <div class="venue"> Personal Project · Tinkering with AI</div>
-        <h3>Research Copilot: Can AI Actually Run Customer Discovery?</h3>
-        <img src="https://akankshagavade.github.io/images/cop.png" alt="research copilot thumbnail">
-        <p class="lead">Could an AI-run discovery process get to a real, defensible product insight, and where would it fall short of human researchers and human subjects?</p>
-        <p>I built an end-to-end AI research tool that simulates customer interviews from a given persona, extracts themes and pain points, and builds a prioritized product roadmap. 
-          I also built in a mechanisms for manual approvals and self-checking at each stage so nothing advances without an verified evidence chain and a person's sign-off. 
-          I tested it on a synthetic study of gig workers managing their finances to see exactly where AI-driven synthesis holds up and where it falls short.</p>
-        <div class="sub">Methods</div>
-        <ul>
-          <li><strong>Built a two-pass AI pipeline</strong> (Python, Streamlit, Gemini API) that generates simulated interviews and extracts findings independently, to avoid trusting one black-box output</li>
-          <li><strong>Designed an evidence-gated review system</strong> requiring every AI-generated finding to be backed by a verbatim quote and manually accepted, edited, or rejected before further synthesis</li>
-          <li><strong>Implemented theme clustering and RICE-based roadmap prioritization</strong> with human override, tracking frequency and severity separately so infrequent-but-serious issues aren't buried</li>
-         </ul>
-<div class="links">
-          <a href="https://app.notion.com/p/Research-Copilot-Can-AI-Actually-Run-Customer-Discovery-3b46d657c2d180a7b896ed5764c49056?source=copy_link" target="_blank" rel="noopener">Read the process in-depth→</a>
-          <a href="https://ai-assisted-pro-discovery-platform.streamlit.app/" target="_blank" rel="noopener">See the app →</a>
-        </div>
-          
-      </article>
-              <article class="entry-full" id="sim">
-        <div class="venue"> Personal Project · Tinkering with AI</div>
-        <h3>Can AI rebuild a person from a fragment of them?</h3>
-        <img src="https://akankshagavade.github.io/images/sim1.jpeg" alt="research copilot thumbnail">
-        <p class="lead">An experiment in persona reconstruction, drift, and where AI simulations fall apart. </p>
-        <p>I built an end-to-end pipeline to test whether an AI can reconstruct a specific person from only part of what they said. 
-          I created six fictional students (grade 3 through college sophomore, each with a specified knowledge boundary and their own way of talking) 
-          and generated ground-truth conversations for each, then showed a second AI only 60% of each one and had it infer a profile.
-         Then I tested the reconstruction for conversation drift and recoverability </p>
-        <div class="sub">Methods</div>
-        <ul>
-          <li><strong>Built a two-pass AI pipeline</strong> (Python, Claude, Gemini API) that generates ground-truth data with one model family and reconstructs it with a separate one </li>
-          <li>Designed a three-dimension fidelity rubric (knowledge, style, naturalness/drift), each backed by both an AI judge and objective non-AI metrics (Flesch-Kincaid grade level, sentence length, text similarity)</li>
-          <li>Ran a blind human-validation pass against the AI judge's scores</li>
-         </ul>
 
 
 <div class="links">
